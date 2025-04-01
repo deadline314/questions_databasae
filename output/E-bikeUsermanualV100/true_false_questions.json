@@ -1,0 +1,202 @@
+[
+  {
+    "question": "EnergyPak 可以在任何溫度下充電嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "RideControl Dash 可以顯示手機通知嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "所有型號的自行車都有智慧型輔助功能嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "電池可以用一般垃圾處理掉嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "系統事件發生時，所有輔助等級都會停止嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "騎乘時無法使用步行輔助功能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RainControl 可以在潮濕環境中正常使用嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "電池需在乾燥安全的地方存放嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "步行輔助的速度可超過 6km/h 嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "輸入電壓在 25~54.6 VDC 之間時第3方設備可使用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RideControl 可連接適合的智慧型手機嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "EnergyPak 在存放時不需要檢查電量嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "電池電量指示器 LED 能顯示五種不同的狀態嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "使用非中性清潔劑清洗沒問題嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "系統可以顯示輔助等級的顏色嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RideDash EVO 有一個頁面指示器嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "STI 杆可以用於所有型號的自行車嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "電池低於 1% 時動力輔助會關閉嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "電池放電時不影響輔助等級嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "自我維護不需要經營銷商幫助嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "RideControl Dash 可以直接安裝在車架中央嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "智慧型輔助是最常用的輔助模式嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "電池存放時環境溫度需在 -20°C 和 50°C 之間嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在所有國家/地區步行輔助都可運行嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "能用高壓水管清潔自行車嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "可在未使用 USB-C 的情況下將 USB 停用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "充電時不需要調整自行車位置嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "在雷雨天氣中可運輸電動自行車嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "RideControl Go 不需配合其他設備使用嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Shimano STI Lever 可用於控制輔助等級嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "快速疑難排解不能解決所有系統問題嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "缺少鑰匙將無法解鎖電池嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RideDash EVO 有四個子資料頁面嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "LED 顯示有橙色提示是危險訊號嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RideControl Dash 可以調整螢幕亮度嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "電池狀態在存放時不用檢查嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "放電循環不會影響電池壽命嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "可使用任何連接器規格連接第3方裝置嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Eco 模式下的動力輔助最小嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "不正確的儲存條件會導致保固失效嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在系統事件中燈光系統會自動關閉嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "可隨時使用非官方零件進行替換嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Sram AXS Bonus Button 可以與任何品牌配合使用嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "自行車的壽命與充電次數無關嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "EnergyPak 的容量影響充電時間嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "輔助等級顯示可以使用多種顏色嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "天氣條件不會影響EnergyPak嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "可通過 RideControl 應用進行輔助等級設定嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "本手冊與經銷商提供的支持相同嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "RideDash EVO 能顯示預估剩餘里程嗎？",
+    "answer": "是"
+  }
+]

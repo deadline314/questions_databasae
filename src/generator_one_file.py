@@ -4,35 +4,20 @@ import base64
 from openai import OpenAI,RateLimitError
 import time
 
-# 初始化 OpenAI 客戶端
+# Initialize OpenAI client
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-# 定義 prompt 列表
+# Define the prompts
 prompts = [
     {
         "filename": "general_questions.json",
         "prompt": """
 請根據文檔的內容，來給我50個題目以及答案。
 """
-    },
-    {
-        "filename": "easy_questions.json",
-        "prompt": """
-請再給我50題不同的題目，但我希望每個題目的答案都只需要簡短的回應即可回答問題，很簡單也沒關係，例如
-Q:壓縮機有幾個階段
-A:5
-Q:Mode 5 中的速度上限是？
-A:2945 rpm
-"""
-    },
-    {
-        "filename": "true_false_questions.json",
-        "prompt": "除此之外再給我50題是非題，答案只有 \"是\" 跟 \"否\""
     }
 ]
 
-# 讀取 PDF 文件並轉換為 base64
-
+# Read PDF file and convert to base64
 def pdf_to_base64(filepath):
     with open(filepath, 'rb') as f:
         data = f.read()
@@ -41,7 +26,7 @@ def pdf_to_base64(filepath):
 
 
 def get_response(messages, retries=6):
-    delay = 1  # 初始延遲時間
+    delay = 1
     for attempt in range(retries):
         try:
             response = client.responses.create(
@@ -60,18 +45,13 @@ def get_response(messages, retries=6):
             delay += 5
     raise Exception("Exceeded maximum retry attempts due to rate limits.")
 
-# 主函式
+# Main function
 
 def generate_datasets(pdf_path):
     encoded_pdf = pdf_to_base64(pdf_path)
 
     output_dir = os.path.splitext(os.path.basename(pdf_path))[0]
-    output_dir = f'../output/{output_dir}'
-    
-    # 如果output_dir已經存在，則直接跳過
-    if os.path.exists(output_dir):
-        print(f"Skipping {pdf_path} because it already exists.")
-        return
+    output_dir = f'./output/{output_dir}'
     
     filename = os.path.basename(pdf_path)
     os.makedirs(output_dir, exist_ok=True)
@@ -125,6 +105,5 @@ def generate_datasets(pdf_path):
 
 # Main
 if __name__ == "__main__":
-    for pdf_name in os.listdir("../pdf"):
-        pdf_path = os.path.join("../pdf", pdf_name)
-        generate_datasets(pdf_path)
+    pdf_path = "./pdf/E-bikeUsermanualV100.pdf"
+    generate_datasets(pdf_path)

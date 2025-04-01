@@ -1,0 +1,62 @@
+[
+  {
+    "question": "電動輔助自行車的首選品牌有哪些？",
+    "answer": "Giant/Liv/Momentum"
+  },
+  { "question": "EnergyPak 的主要功能是什麼？", "answer": "供電" },
+  { "question": "使用自行車前應檢查什麼？", "answer": "電池和功能" },
+  { "question": "電池應如何存放？", "answer": "乾燥安全處" },
+  { "question": "智慧型輔助可以怎麼激活？", "answer": "按住按鈕" },
+  { "question": "RideControl Dash 可顯示什麼資訊？", "answer": "速度、電量等" },
+  { "question": "如何開始充電？", "answer": "連接充電器" },
+  { "question": "EnergyPak 應使用的溫度範圍是多少？", "answer": "0°C到45°C" },
+  { "question": "什麼是步行輔助的最大速度？", "answer": "6km/h" },
+  {
+    "question": "RideControl Ergo 可以連接什麼應用程式？",
+    "answer": "RideControl"
+  },
+  { "question": "應用程式的最小版本要求是？", "answer": "v1.8.1" },
+  { "question": "電池電量低於多少時會切換至最低輔助等級？", "answer": "3%" },
+  { "question": "LED 顯示器可以顯示哪幾種顏色？", "answer": "紅、綠、黃、藍" },
+  { "question": "最大支援速度的要求是什麼？", "answer": "45km/h" },
+  { "question": "Shimano STI Lever 的主要功能是什麼？", "answer": "輔助調整" },
+  { "question": "雨雪可能導致什麼問題？", "answer": "零件損壞" },
+  { "question": "維護時不應使用什麼？", "answer": "高壓水" },
+  { "question": "充電時間應在什麼溫度範圍內？", "answer": "0°C~45°C" },
+  { "question": "系統事件時應查看哪一個指示器？", "answer": "LED" },
+  {
+    "question": "RideControl Dash 提供的數據類型有哪些？",
+    "answer": "速度、距離"
+  },
+  { "question": "電池滿電時如何處理？", "answer": "斷開連接" },
+  { "question": "智慧型輔助的顯示顏色是什麼？", "answer": "藍色" },
+  { "question": "如何清潔自行車？", "answer": "軟布" },
+  { "question": "能源存儲模式下的充電狀態如何？", "answer": "60%" },
+  { "question": "EnergyPak 側拉式充電器的容量是多少？", "answer": "250 Wh" },
+  { "question": "儲存和運送電池時需注意什麼？", "answer": "乾燥" },
+  { "question": "RideDash EVO 顯示在哪裡安裝？", "answer": "車把中央" },
+  { "question": "如何確保車輛最佳性能？", "answer": "一般維護" },
+  { "question": "最大負載會隨什麼改變？", "answer": "自行車規格" },
+  { "question": "為什麼需要拆卸 EnergyPak？", "answer": "技術檢查" },
+  { "question": "系統事件中電池狀態如何提示？", "answer": "紅色閃爍" },
+  { "question": "存放電池應避免什麼？", "answer": "高溫和濕度" },
+  { "question": "什麼條件下電池不能隨垃圾處理？", "answer": "損壞或使用過" },
+  { "question": "RideControl Ergo 提供哪些功能？", "answer": "輔助、照明" },
+  { "question": "法律文件中提供什麼信息？", "answer": "保固和排除" },
+  { "question": "電池條件可能因什麼因素改變？", "answer": "使用和環境" },
+  { "question": "在什麼樣的條件下不應運送自行車？", "answer": "惡劣天候" },
+  { "question": "RideDash 的主要顯示是什麼？", "answer": "彩色螢幕" },
+  { "question": "驅動系統的問題該怎麼辦？", "answer": "聯繫經銷商" },
+  { "question": "如何調整輔助等級？", "answer": "按按鈕" },
+  { "question": "何時需要檢查鏈條張力？", "answer": "當鬆動" },
+  { "question": "在什麼情況下會出現系統事件？", "answer": "故障" },
+  {
+    "question": "RideControl Dash 什麼顏色的 LED 表示充電完成？",
+    "answer": "綠色"
+  },
+  { "question": "什麼情況下需要系統維修？", "answer": "問題未解決" },
+  { "question": "USB-C 用於什麼用途？", "answer": "充電" },
+  { "question": "哪些零件可能會受潮損壞？", "answer": "電子零件" },
+  { "question": "在什麼條件下加速將消耗更多能量？", "answer": "高輔助等級" },
+  { "question": "如何清除子資料欄位？", "answer": "按住按鈕" }
+]

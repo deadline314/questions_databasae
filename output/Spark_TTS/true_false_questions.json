@@ -1,0 +1,198 @@
+[
+  {
+    "question": "Spark-TTS使用多流架構嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec可以分解語音為兩種類型碼元嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox數據集超過10萬小時嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec解碼器用於產生最終波形嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox只包含中文語音數據嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS支持零樣本語音合成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec是基於雙流的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox包含性別標註嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec使用FSQ進行全局碼元的量化嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS需要參考音頻才能生成語音嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox是公開的數據資源嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec可以在高位元速率下運行嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS用於錄音製作嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec的碼本大小是8192嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox支持英語數據嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "單一流代碼使用幾何量化技術嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox是專有數據集嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS的解碼器使用傳統技術嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec能實現精細音高調節嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS設計的主要目的是提升TTS效率嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox包含聽覺情感數據嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec包含多碼書模式嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS是開源的嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox中每個音檔都有速度標註嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec使用ML算法進行處理嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "單一流架構能提高生成速度嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec適用於一般音頻合成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS依靠參考音頻進行聲音合成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox數據集來自專利資源嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec支持雙流編碼嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Spark-TTS架構複雜且難以集成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "語義代碼使用單碼書VQ量化嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VoxBox能支持語音情感分析嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec的架構主要基於VQ-VAE嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS可以實現說話人辨識嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec在音質上有優勢嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS僅用於中文語音合成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox數據集無法公開獲取嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec能量化全球語音特徵嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS和Llasa具有相同的參數規模嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox的建設涵蓋多語種嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec使用語言模型進行語音生成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS需要多段語音數據進行訓練嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "BiCodec可以在不同的比特率下運行嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS不支持屬性控制嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox中的語音資源是單語言的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "BiCodec可用於低頻寬語音合成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Spark-TTS的編碼器使用多碼書嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VoxBox能用于研究合成語音的可控性嗎？",
+    "answer": "是"
+  }
+]

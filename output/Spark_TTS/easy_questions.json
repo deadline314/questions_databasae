@@ -1,0 +1,194 @@
+[
+  {
+    "question": "Spark-TTS使用的編碼器是什麼？",
+    "answer": "BiCodec"
+  },
+  {
+    "question": "BiCodec有幾種碼元？",
+    "answer": "兩種"
+  },
+  {
+    "question": "VoxBox的語料時長？",
+    "answer": "100,000小時"
+  },
+  {
+    "question": "Spark-TTS解碼器使用什麼？",
+    "answer": "BiCodec"
+  },
+  {
+    "question": "語義碼元的比特率是多少？",
+    "answer": "低位率"
+  },
+  {
+    "question": "全局碼元是什麼類型？",
+    "answer": "固定長度"
+  },
+  {
+    "question": "VQ-VAE是用於什麼？",
+    "answer": "編解碼"
+  },
+  {
+    "question": "Spark-TTS可以控制的屬性有哪些？",
+    "answer": "性別、音高、速率"
+  },
+  {
+    "question": "BiCodec的碼本大小是多少？",
+    "answer": "8192"
+  },
+  {
+    "question": "用於語義碼元的模型是什麼？",
+    "answer": "wave2vec 2.0"
+  },
+  {
+    "question": "VoxBox包含多少開源數據集？",
+    "answer": "29"
+  },
+  {
+    "question": "語義碼元速率是多少TPS？",
+    "answer": "50 TPS"
+  },
+  {
+    "question": "全局碼元如何量化？",
+    "answer": "FSQ"
+  },
+  {
+    "question": "語音合成使用的主要語言模型是？",
+    "answer": "Qwen2.5"
+  },
+  {
+    "question": "可控TTS的屬性級別有哪些？",
+    "answer": "粗粒度和細粒度"
+  },
+  {
+    "question": "BiCodec的特點是什麼？",
+    "answer": "靈活性"
+  },
+  {
+    "question": "BiCodec的解碼器架構是什麼？",
+    "answer": "ConvNeXt"
+  },
+  {
+    "question": "語音代碼化技術的挑戰是什麼？",
+    "answer": "聲紋控制"
+  },
+  {
+    "question": "哪些指標用來評估語音質量？",
+    "answer": "PESQ, STOI"
+  },
+  {
+    "question": "Spark-TTS提供什麼樣的TTS功能？",
+    "answer": "零樣本"
+  },
+  {
+    "question": "BiCodec用於什麼技術？",
+    "answer": "語音合成"
+  },
+  {
+    "question": "語音屬性標註在VoxBox中是什麼？",
+    "answer": "多樣"
+  },
+  {
+    "question": "什麼結構用於處理LM輸出？",
+    "answer": "BiCodec"
+  },
+  {
+    "question": "VoxBox有多少音頻文件？",
+    "answer": "4700萬"
+  },
+  {
+    "question": "控制講話速率使用什麼單位？",
+    "answer": "SPS"
+  },
+  {
+    "question": "VoxBox是哪種開源資源？",
+    "answer": "語音"
+  },
+  {
+    "question": "BiCodec的量化技術是什麼？",
+    "answer": "FSQ"
+  },
+  {
+    "question": "主要的語言模型是什麼？",
+    "answer": "Qwen2.5"
+  },
+  {
+    "question": "性別和年齡分類使用什麼工具？",
+    "answer": "WavLM-large"
+  },
+  {
+    "question": "BiCodec的碼本類型是什麼？",
+    "answer": "單碼書"
+  },
+  {
+    "question": "Spark-TTS的目的是什麼？",
+    "answer": "提升TTS效率"
+  },
+  {
+    "question": "BiCodec中使用的特徵來自哪裡？",
+    "answer": "wav2vec 2.0"
+  },
+  {
+    "question": "VoxBox數據集的語言種類有多少？",
+    "answer": "多種"
+  },
+  {
+    "question": "BiCodec解決了什麼問題？",
+    "answer": "語音合成複雜性"
+  },
+  {
+    "question": "Spark-TTS的模型參數是多少？",
+    "answer": "0.5B"
+  },
+  {
+    "question": "哪些數據集用於訓練BiCodec？",
+    "answer": "LibriSpeech等"
+  },
+  {
+    "question": "單一流代碼預測與什麼並行使用？",
+    "answer": "生成模型"
+  },
+  {
+    "question": "什麼是SparkVox用於的任務？",
+    "answer": "語音相關"
+  },
+  {
+    "question": "VoxBox的性別標註準確率是多少？",
+    "answer": "99.4%"
+  },
+  {
+    "question": "BiCodec運行在什麼條件下？",
+    "answer": "50 TPS, 0.65 kbps"
+  },
+  {
+    "question": "什麼類型的控制是VoxBox支持的？",
+    "answer": "語音屬性"
+  },
+  {
+    "question": "語音控制系統能調整的屬性是？",
+    "answer": "性別、音高、速度"
+  },
+  {
+    "question": "FSQ的目的是什麼？",
+    "answer": "時不變碼元"
+  },
+  {
+    "question": "BiCodec的編碼速度是什麼？",
+    "answer": "50 TPS"
+  },
+  {
+    "question": "語音生成的架構簡化了什麼？",
+    "answer": "合成流程"
+  },
+  {
+    "question": "語義碼元從何而來？",
+    "answer": "預訓練wav2vec 2.0"
+  },
+  {
+    "question": "語音合成的主要挑戰是什麼？",
+    "answer": "語音質量"
+  },
+  {
+    "question": "什麼平台提供聲音數據集？",
+    "answer": "VoxBox"
+  }
+]

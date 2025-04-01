@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Zep是傳統的靜態文件檢索系統嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep在LongMemEval中比MemGPT表現更好嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Graphiti引擎專注於靜態資料嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep能夠進行動態知識整合嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep的準確率在DMR中低於MemGPT嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti是Zep的核心元件嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep使用了時間感知技術嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep是為娛樂應用而設計的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "RAG架構能夠動態處理對話數據嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti能夠保持歷史關係嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep能在DMR基準測試中提供準確答案嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep可用于跨會話信息合成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep忽略了企業應用中的關鍵需求嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti不能處理未結構化的數據嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep能提高檢索效能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep是基於知識圖的架構嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep在LongMemEval中不能減少延遲嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep包含Graphiti引擎的功能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep使用的是靜態記憶層嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep在處理複雜問題時不如MemGPT嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep的設計考慮了時序推理嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Graphiti不能更新知識圖嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep致力於提升企業應用效能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep在處理跨會話任務時不如全局搜索嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti引擎在測試中表現不佳嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep的架構專注於企業應用需求嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DMR是用於檢測簡單回憶嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep能夠在不損失精度下減少延遲嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep不支持動態數據操作嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti能夠推進知識的動態擴展嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep無法處理實時對話嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti使用靜態知識圖嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep只關注學術應用嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep使用的是單一檢索方法嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti能否處理多元數據來源？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep架構中不包括語義實體子圖嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep能進行複雜的知識集成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep的主要競爭者是MemGPT嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep不具備動態記憶層的特點嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep在基準測試中不如其他系統嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Graphiti不能更新知識圖嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep能處理大型數據集嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep主要設計為靜態知識應用嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep能夠提升企業應用中的效能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep專注於動態數據整合嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep能通過DMR提升準確率嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Zep不能應對複雜任務嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep主要用於商業應用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在DMR中Zep比MemGPT表現更差嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Zep是新型的檢索增強生成技術嗎？",
+    "answer": "是"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "question": "什麼型號的電動輔助自行車本手冊適用於？",
+    "answer": "Giant/Liv/Momentum"
+  },
+  {
+    "question": "在開始騎乘前應該在哪裡閱讀額外的資訊？",
+    "answer": "網站的支援部分和自行車使用手冊中的一般資訊"
+  },
+  {
+    "question": "不遵守安全指示可能帶來什麼後果？",
+    "answer": "可能造成死亡、嚴重人身傷害和/或嚴重財物損失"
+  },
+  {
+    "question": "為什麼不應將電池和充電器接近水？",
+    "answer": "因為可能會對電池和充電器造成損害"
+  },
+  {
+    "question": "什麼情況下需要立即中斷充電器和電池連接？",
+    "answer": "一旦發現異味或冒煙"
+  },
+  {
+    "question": "如何避免由於電池著火造成的危害？",
+    "answer": "使用大量的沙覆蓋滅火，不要用水滅火"
+  },
+  {
+    "question": "什麼溫度範圍適合使用EnergyPak？",
+    "answer": "-20°C 至 60°C"
+  },
+  {
+    "question": "首次使用EnergyPak需要做什麼？",
+    "answer": "建議完整充電"
+  },
+  {
+    "question": "在哪種狀況下需要關閉EnergyPak的電源才能拆卸？",
+    "answer": "在拆卸前"
+  },
+  {
+    "question": "什麼是智慧型充電器 4A, 48V, Dual 的特點？",
+    "answer": "可監控電池狀態並調整充電過程，以提升速度和延長壽命"
+  },
+  {
+    "question": "LED 紅色和綠色交替閃爍表示什麼狀態？",
+    "answer": "充電問題"
+  },
+  {
+    "question": "充電EnergyPak時應該保持自行車的什麼姿勢？",
+    "answer": "平穩直立放置"
+  },
+  {
+    "question": "如何判斷EnergyPak 智慧型側拉式電量已滿？",
+    "answer": "指示燈顯示"
+  },
+  {
+    "question": "如何開始為EnergyPak帶電池充電？",
+    "answer": "將充電器連接到充電埠並插入插座"
+  },
+  {
+    "question": "RideControl Ergo 的電源開關怎麼操作？",
+    "answer": "按下至少1.5秒後放開"
+  },
+  {
+    "question": "RideControl Ergo上的步行輔助怎麼使用？",
+    "answer": "首先按步行輔助按鈕，再按輔助等級上按鈕"
+  },
+  {
+    "question": "什麼會導致SyncDrive 馬達的智慧型輔助調整功能啟動？",
+    "answer": "按住輔助等級上或下按鈕2秒"
+  },
+  {
+    "question": "如何為RideControl Dash修改顯示單位？",
+    "answer": "按住資訊按鈕5秒"
+  },
+  {
+    "question": "什麼條件下外部裝置可以連接電動輔助自行車系統？",
+    "answer": "符合連接器規格和電源規格"
+  },
+  {
+    "question": "EnergyPak的儲存應有多少電量？",
+    "answer": "約60%"
+  },
+  {
+    "question": "什麼方法不應用於清潔電動輔助自行車？",
+    "answer": "高壓水管或空氣軟管"
+  },
+  {
+    "question": "為什麼需要檢查鏈條張力？",
+    "answer": "檢查鏈條鬆弛程度，避免損壞"
+  },
+  {
+    "question": "如何處理損壞的舊電池？",
+    "answer": "不得作為生活垃圾，應作為危險廢物處理"
+  },
+  {
+    "question": "哪些自行車元件正常磨損不包括在保修範圍內？",
+    "answer": "輪胎、鏈條、制動器、電纜和齒輪"
+  },
+  {
+    "question": "什麼樣的改裝可能會使保固失效？",
+    "answer": "改裝原始設備或其他影響設計和操作的改動"
+  },
+  {
+    "question": "如何安裝Shimano STI Lever？",
+    "answer": "可以透過RideControl應用程式進行設定"
+  },
+  {
+    "question": "什麼是Sram AXS Bonus Button的功能？",
+    "answer": "切換輔助等級和啟動智慧型輔助"
+  },
+  {
+    "question": "為什麼運送前應取下可拆卸的電子元件？",
+    "answer": "為避免運輸損傷"
+  },
+  {
+    "question": "什麼是EnergyPak的存放溫度範圍？",
+    "answer": "-20°C 到 50°C"
+  },
+  {
+    "question": "如何處理快要過期的EnergyPak電量？",
+    "answer": "充電到60%"
+  },
+  {
+    "question": "如何調整RideControl Dash的螢幕亮度？",
+    "answer": "按燈光按鈕"
+  },
+  {
+    "question": "在什麼情況下無法關閉S-Pedelecs的燈光？",
+    "answer": "快速電動輔助自行車（S-Pedelecs）"
+  },
+  {
+    "question": "如何在RideControl Dash上啟用智慧型輔助？",
+    "answer": "同時按下輔助等級上和下按鈕2秒"
+  },
+  {
+    "question": "為什麼攜帶鑰匙很重要？",
+    "answer": "驗證和維護所需"
+  },
+  {
+    "question": "什麼原因會導致EnergyPak電量下降？",
+    "answer": "不當存放或長期未使用"
+  },
+  {
+    "question": "雨、雪、鹽對電動輔助自行車有什麼影響？",
+    "answer": "可能導致腐蝕或損壞"
+  },
+  {
+    "question": "如何正確存放EnergyPak？",
+    "answer": "在乾燥安全的地方，以適當溫度存放"
+  },
+  {
+    "question": "什麼標準的混合動力自行車滿足25km/h支援？",
+    "answer": "歐盟機械指令2006/42/EC"
+  },
+  {
+    "question": "如何識別RideDash EVO的狀態列圖示？",
+    "answer": "無線、燈光、通知和維修圖示"
+  },
+  {
+    "question": "什麼會影響騎乘里程？",
+    "answer": "天氣、道路條件和使用方式"
+  },
+  {
+    "question": "如何清潔電動輔助自行車？",
+    "answer": "用軟布或刷子和中性清潔劑輕輕擦拭"
+  },
+  {
+    "question": "為什麼避免在潮濕中使用USB-C口？",
+    "answer": "防止液體進入造成損壞"
+  },
+  {
+    "question": "如何啟用RideControl Ergo的步行輔助功能？",
+    "answer": "按下步行輔助按鈕，接著按輔助等級上"
+  },
+  {
+    "question": "什麼時候需要使用快速充電器3A/4A, 36V？",
+    "answer": "當需要快速充電而無電池或已充滿"
+  },
+  {
+    "question": "LED紅色閃爍時表示什麼狀況？",
+    "answer": "系統事件或故障指示"
+  },
+  {
+    "question": "什麼情況下會讓RideControl顯示器起霧？",
+    "answer": "溫度快速變化引起"
+  }
+]

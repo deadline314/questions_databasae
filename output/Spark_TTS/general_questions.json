@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Spark-TTS使用什麼方法來提升文本轉語音合成的效率？",
+    "answer": "使用單一流編碼器BiCodec來分解語音為語義與全局語音碼元，提升效率。"
+  },
+  {
+    "question": "BiCodec如何實現語音的可控性？",
+    "answer": "透過結合低位率語義碼元與固定長度全局碼元，實現可控性。"
+  },
+  {
+    "question": "什麼是VoxBox？",
+    "answer": "VoxBox是一個精心策劃的10萬小時語料庫，包含完善的屬性標註。"
+  },
+  {
+    "question": "Spark-TTS的語音合成系統有何創新？",
+    "answer": "系統能在不參考參考音頻的情況下，通過屬性控制創建新的說話者語音。"
+  },
+  {
+    "question": "Spark-TTS的整合性架構如何影響其性能？",
+    "answer": "其單一編碼器架構與傳統文本LLM對齊，支持靈活的語音創建。"
+  },
+  {
+    "question": "何為語音代碼化技術在TTS系統中的貢獻？",
+    "answer": "語音代碼化技術提高了語音合成的自然度，使合成語音幾乎與人聲無異。"
+  },
+  {
+    "question": "什麼是BiCodec的兩種碼元類型？",
+    "answer": "低位率語義碼元與固定長度全局碼元。"
+  },
+  {
+    "question": "Spark-TTS如何在語音合成中實現細粒度調節？",
+    "answer": "實現精確音高值和講話速率等細粒度的調節。"
+  },
+  {
+    "question": "零樣本TTS涉及哪兩種類型的代碼預測模型？",
+    "answer": "首先是單流代碼預測，其次是多流代碼預測。"
+  },
+  {
+    "question": "Spark-TTS和Llasa使用的主要架構有何不同？",
+    "answer": "Llasa使用的是8B參數和250k小時的數據，而Spark-TTS只有0.5B參數和100k小時數據。"
+  },
+  {
+    "question": "BiCodec的模型結構中包含哪些部分？",
+    "answer": "語義編碼器、全局編碼器和解碼器。"
+  },
+  {
+    "question": "VoxBox數據集的幾個主要特徵是什麼？",
+    "answer": "包含35種不同語言的說話人數據和多種語音屬性標註。"
+  },
+  {
+    "question": "MLMS（大語言模型中使用）在語音合成上有什麼作用？",
+    "answer": "MLMS用於語音屬性的語言模型編碼，如性別、音高和速率。"
+  },
+  {
+    "question": "Spark-TTS的架構如何簡化了文本LLM到語音的生成流程？",
+    "answer": "BiCodec直接處理LM的輸出以生成語音波形，簡化流程。"
+  },
+  {
+    "question": "VoxBox在研究可控的TTS中有什麼作用？",
+    "answer": "VoxBox提供了一個開源數據資源基礎，用來建立可復現的基準。"
+  },
+  {
+    "question": "什麼是BiCodec的量化技術採用的方法？",
+    "answer": "使用單碼書向量量化來進行量化，並使用FSQ代替VQ。"
+  },
+  {
+    "question": "Spark-TTS如何通過CoT來預測語音屬性？",
+    "answer": "透過包含屬性標籤的輸入，在CoT模式下預測細粒度屬性值。"
+  },
+  {
+    "question": "什麼是Spark-TTS中使用的語言模型的名稱？",
+    "answer": "Qwen2.5-0.5B。"
+  },
+  {
+    "question": "BiCodec在語音合成中的音質評分主要由什麼量表來評估？",
+    "answer": "由PESQ和UTMOS指標進行評估。"
+  },
+  {
+    "question": "Spark-TTS在什麼指標上展示了更高的性能？",
+    "answer": "在語音的聲學自然度和整體語質上表現出色。"
+  },
+  {
+    "question": "BiCodec的編解碼框架採用什麼模型結構？",
+    "answer": "採用標準的VQ-VAE編解碼框架。"
+  },
+  {
+    "question": "Spark-TTS相較於傳統TTS方法的優勢是什麼？",
+    "answer": "實現自治編碼器架構，支持靈活語音生成，提升合成效率。"
+  },
+  {
+    "question": "如何評估BiCodec在語音代碼重建中的性能？",
+    "answer": "使用STOI、PESQ和SIM等度量來評估。"
+  },
+  {
+    "question": "Spark-TTS使用什麼方法達到了高效的零樣本語音合成？",
+    "answer": "使用單一流代碼與屬性標籤整合預測技術。"
+  },
+  {
+    "question": "如何在Spark-TTS中針對講話速率進行控制？",
+    "answer": "透過屬性標籤和精細值實現，系統支持兩種控制層次。"
+  },
+  {
+    "question": "如何利用Spark-TTS創建新的說話者語音？",
+    "answer": "通過屬性控制系統創建不需參考音頻的新說話者語音。"
+  },
+  {
+    "question": "Spark-TTS的主要貢獻有哪些？",
+    "answer": "包括新的編碼器（BiCodec）、語音控制系統和標準數據集VoxBox。"
+  },
+  {
+    "question": "什麼是影響Spark-TTS中說話人相似度的原因？",
+    "answer": "AR語言模型造成的說話人變異性影響了相似度。"
+  },
+  {
+    "question": "什麼是語音代碼化技術在Spark-TTS中的一個挑戰？",
+    "answer": "二元碼元的解耦不充分，限制聲紋控制能力。"
+  },
+  {
+    "question": "VoxBox為何適合作為可控TTS的基準？",
+    "answer": "數據源開源且包含完整的屬性標註，適合研究與比較。"
+  },
+  {
+    "question": "SparkVox主要用於什麼類型的任務？",
+    "answer": "開放語音框架，用於語音合成、語音編碼及理解任務。"
+  },
+  {
+    "question": "Spark-TTS的融合框架如何提升語音創建的靈活性？",
+    "answer": "保持與傳統文本大語言模型對齊的單一編碼器架構。"
+  },
+  {
+    "question": "什麼是BiCodec相比其他編碼器的優勢？",
+    "answer": "在低位元速率下提供更高的重建質量和語義對準。"
+  },
+  {
+    "question": "如何定義VoxBox中的性別和年齡分類準則？",
+    "answer": "通過針對不同數據集的模型預測，使用明確準則進行分類。"
+  },
+  {
+    "question": "什麼是可以影響Spark-TTS性能的未來方向？",
+    "answer": "加入更多的充權機制和改善音高調制進一步提高性能。"
+  },
+  {
+    "question": "Spark-TTS在控制聲音屬性方面具備什麼特點？",
+    "answer": "具備性別、音高、講話速率等粗粒度和細粒度控制。"
+  },
+  {
+    "question": "如何在BiCodec中實現全球語音特色的量化？",
+    "answer": "使用FSQ對時不變的全局信息進行量化。"
+  },
+  {
+    "question": "哪些數據集被用來訓練Spark-TTS？",
+    "answer": "來自29個開源數據集，包括AISHELL-3、EMNS、Librispeech等。"
+  },
+  {
+    "question": "使用Spark-TTS進行零樣本語音合成的策略有哪些？",
+    "answer": "可以使用文本以及參考音頻來生成全局與語義碼元。"
+  },
+  {
+    "question": "Spark-TTS有哪些標準化的性能評估指標？",
+    "answer": "STOI、PESQ、SIM和UTMOS。"
+  },
+  {
+    "question": "BiCodec在語義碼元的重建中採用了什麼技術？",
+    "answer": "Wave2vec 2.0的特徵用於語義碼元的抽取。"
+  },
+  {
+    "question": "在VoxBox數據集中有哪些語言和屬性標註？",
+    "answer": "包括性別、音高、講話速率等多種屬性語言標註。"
+  },
+  {
+    "question": "Spark-TTS的主要競爭優勢是什麼？",
+    "answer": "它在合成速度和語音自然度上達到領先水平。"
+  },
+  {
+    "question": "BiCodec在語音合成的語音品質上如何評價？",
+    "answer": "在低位元速率下提供出色的音質評價。"
+  },
+  {
+    "question": "Spark-TTS在什麼指標上展示了優於Llasa的性能？",
+    "answer": "雖然參數較少但在語音的智能和細節上超越Llasa。"
+  }
+]

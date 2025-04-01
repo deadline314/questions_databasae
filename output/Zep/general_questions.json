@@ -1,0 +1,194 @@
+[
+  {
+    "question": "Zep相較於MemGPT在深度記憶檢索(DMR)基準測試中的表現如何？",
+    "answer": "Zep的表現優於MemGPT，在DMR中達到94.8%的準確率，而MemGPT為93.4%。"
+  },
+  {
+    "question": "Zep的核心組件是什麼？",
+    "answer": "Graphiti，一個具時間意識的知識圖引擎。"
+  },
+  {
+    "question": "Zep在什麼基準測試中驗證了它的能力超越DMR？",
+    "answer": "LongMemEval基準測試。"
+  },
+  {
+    "question": "Zep在LongMemEval基準測試中的性能提升是多少？",
+    "answer": "準確率提升高達18.5%。"
+  },
+  {
+    "question": "Zep通過哪種方法解決現有RAG框架的基本限制？",
+    "answer": "動態整合未結構化對話數據和結構化商業數據，同時維護歷史關係。"
+  },
+  {
+    "question": "Zep是怎樣的系統？",
+    "answer": "一個針對AI代理的記憶層服務。"
+  },
+  {
+    "question": "在Zep架構中，知識圖由哪三個分層子圖構成？",
+    "answer": "情節子圖、語義實體子圖和社區子圖。"
+  },
+  {
+    "question": "什麼是情節子圖的主要作用？",
+    "answer": "作為數據存儲，從中提取語義實體和關係。"
+  },
+  {
+    "question": "為什麼Zep的雙重存儲設計很重要？",
+    "answer": "反映心理學中對人類記憶的建模，區分情節記憶和語義記憶。"
+  },
+  {
+    "question": "Zep如何處理實體提取的過程？",
+    "answer": "對當前訊息內容及過去4條訊息進行處理，以提供命名實體識別的上下文。"
+  },
+  {
+    "question": "什麼是Graphiti的關鍵特徵之一，以區別於其他知識圖引擎？",
+    "answer": "管理動態信息更新的時間提取和邊無效化過程。"
+  },
+  {
+    "question": "Zep的社區子圖通過什麼算法構建？",
+    "answer": "標籤傳播算法。"
+  },
+  {
+    "question": "在Zep中，如何表達新數據進入圖時的社區更新？",
+    "answer": "動態擴展標籤傳播的一個遞歸步驟。"
+  },
+  {
+    "question": "Zep的記憶檢索系統主要實現哪些功能？",
+    "answer": "強大、複雜且高度可配置的功能。"
+  },
+  {
+    "question": "Zep使用的三個主要搜尋方法是什麼？",
+    "answer": "餘弦語義相似性搜尋、Okapi BM25全文搜尋、廣度優先搜尋。"
+  },
+  {
+    "question": "Zep中再排序器的作用是什麼？",
+    "answer": "通過優先顯示最相關的結果提高精確性。"
+  },
+  {
+    "question": "在進行對話記憶集成實驗中，Zep最常用哪個模型？",
+    "answer": "gpt-4o-mini模型。"
+  },
+  {
+    "question": "LongMemEval數據集中對話的平均長度是多少？",
+    "answer": "平均115,000個token。"
+  },
+  {
+    "question": "Zep在DMR測試中使用gpt-4o-mini的準確性是多少？",
+    "answer": "98.2%。"
+  },
+  {
+    "question": "在LongMemEval測試中，使用gpt-4o-mini的Zep相較於基線準確率提高了多少？",
+    "answer": "提高了15.2%。"
+  },
+  {
+    "question": "Zep如何在知識圖中整合時間的信息？",
+    "answer": "使用bi-temporal模型，追蹤事實的四個時間戳。"
+  },
+  {
+    "question": "在進行記憶檢索時，Zep的輸出由哪些要素組成？",
+    "answer": "語義邊、實體單元和社區單元。"
+  },
+  {
+    "question": "Zep的再排序器支持哪兩種現有的方法？",
+    "answer": "互惠排名融合(RRF)和最大邊緣差異(MMR)。"
+  },
+  {
+    "question": "Zep能夠管理多少種類型的問題？",
+    "answer": "六種類型的問題。"
+  },
+  {
+    "question": "Zep的社區檢索策略與LightRAG的方法有何相似之處？",
+    "answer": "都採用高級關鍵檢索方法。"
+  },
+  {
+    "question": "在LongMemEval中的哪種類型問題上Zep的增益面最為顯著？",
+    "answer": "單回合偏好、多回合和時間推理問題類型。"
+  },
+  {
+    "question": "在Zep架構中，事實提取的關鍵目的是什麼？",
+    "answer": "建立明確的兩個不同實體節點之間的關係。"
+  },
+  {
+    "question": "Zep的資訊檢索過程中有哪三個明確步驟？",
+    "answer": "搜尋、再排序、建構。"
+  },
+  {
+    "question": "Zep在DMR測試中使用哪個模型達到94.8%的準確率？",
+    "answer": "gpt-4-turbo。"
+  },
+  {
+    "question": "什麼可作為Zep中節點距離再排序器的基準？",
+    "answer": "指定的中心節點。"
+  },
+  {
+    "question": "Zep以什麼形式處理事實提取的時間信息？",
+    "answer": "使用有效區間的日期範圍表示。"
+  },
+  {
+    "question": "什麼是Zep在DMR數據集上的一大限制？",
+    "answer": "數據集規模小且不足以代表真實企業應用場景。"
+  },
+  {
+    "question": "在Zep的知識圖中，邊的無效化過程是如何進行的？",
+    "answer": "當識別到時間重疊的矛盾時，將受影響的邊設為無效。"
+  },
+  {
+    "question": "Graphiti引擎用於表達什麼類型的世界觀？",
+    "answer": "複雜、動態演變的世界觀。"
+  },
+  {
+    "question": "在Zep圖構建中，如何表達社區節點中的高層次結構和領域概念？",
+    "answer": "使用社區節點來總結和連接實體成員。"
+  },
+  {
+    "question": "Zep在企業應用中最突出的任務有哪些？",
+    "answer": "跨會話信息綜合和長期上下文維護。"
+  },
+  {
+    "question": "Zep在DMR中使用什麼方法提高準確性？",
+    "answer": "使用高效的search和reranking技術獲取最相關的節點與邊。"
+  },
+  {
+    "question": "Zep的再排序器還使用了什麼樣的技術來優化性能？",
+    "answer": "使用cross-encoders生成相關性評分。"
+  },
+  {
+    "question": "Zep如何使用計時符號來管理知識圖中的時間信息？",
+    "answer": "使用有效和無效日期字段來管理事實的時間跨度。"
+  },
+  {
+    "question": "Zep的性能表現在於何種提升？",
+    "answer": "準確性和延遲的顯著改善，特別是在複雜和細緻的問題類型上。"
+  },
+  {
+    "question": "Zep如何幫助提高用於檢索的上下文窗口效率？",
+    "answer": "通過動態集成連續交互數據創建和管理大型數據庫。"
+  },
+  {
+    "question": "在使用知識圖時，Zep如何處理實體名稱的重複問題？",
+    "answer": "通過餘弦相似性搜尋和實體解析提示回應。"
+  },
+  {
+    "question": "Zep的知識圖採取什麼樣的構造層級？",
+    "answer": "從情節到事實到實體再到社區。"
+  },
+  {
+    "question": "Zep如何在知識圖的廣度優先搜尋中改善初始搜尋結果？",
+    "answer": "識別n跳內的附加節點和邊。"
+  },
+  {
+    "question": "Zep的實驗實施選擇使用哪種嵌入模型？",
+    "answer": "BGE-m3模型。"
+  },
+  {
+    "question": "在實驗中，使用gpt-4-turbo的Zep對整體對話記憶的準確率是多少？",
+    "answer": "94.4%"
+  },
+  {
+    "question": "在實驗中，Zep使用的gpt-4o-mini模型達到了什麼準確率？",
+    "answer": "使用gpt-4o-mini的Zep達到了98.2%準確率。"
+  },
+  {
+    "question": "Zep中使用的是哪種時態搜尋方法？",
+    "answer": "bi-temporal模型，用以追蹤事實的四個時間戳。"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Zep是什麼類型的技術？",
+    "answer": "記憶層服務"
+  },
+  {
+    "question": "MemGPT的準確率是多少？",
+    "answer": "93.4%"
+  },
+  {
+    "question": "Zep使用哪種引擎？",
+    "answer": "Graphiti"
+  },
+  {
+    "question": "LongMemEval基準測試算使用Zep的準確率提升是多少？",
+    "answer": "18.5%"
+  },
+  {
+    "question": "Zep主要用於什麼應用？",
+    "answer": "企業應用"
+  },
+  {
+    "question": "RAG代表什麼？",
+    "answer": "檢索增強生成"
+  },
+  {
+    "question": "Zep的結果在哪些任務中特別顯著？",
+    "answer": "企業關鍵任務"
+  },
+  {
+    "question": "Graphiti能夠動態合成哪些數據？",
+    "answer": "歷史關係"
+  },
+  {
+    "question": "Zep在何種基準測試中表現超越其他系統？",
+    "answer": "DMR"
+  },
+  {
+    "question": "Graphiti主要具備什麼性質？",
+    "answer": "時間敏感"
+  },
+  {
+    "question": "Zep能獲得什麼類型的知識？",
+    "answer": "動態知識"
+  },
+  {
+    "question": "Zep的表現在哪裡得到驗證？",
+    "answer": "長期記憶評估"
+  },
+  {
+    "question": "Zep的準確率比MemGPT高多少？",
+    "answer": "1.4%"
+  },
+  {
+    "question": "Zep的記憶結構受什麼啟發？",
+    "answer": "人類記憶模型"
+  },
+  {
+    "question": "Zep與MemGPT的主要區別是什麼？",
+    "answer": "動態整合"
+  },
+  {
+    "question": "什麼是Graphiti的基礎架構？",
+    "answer": "知識圖"
+  },
+  {
+    "question": "Zep覆蓋的基準測試是什麼？",
+    "answer": "LongMemEval"
+  },
+  {
+    "question": "MemGPT使用什麼作為主要評估指標？",
+    "answer": "DMR"
+  },
+  {
+    "question": "Zep的查詢方法主要包括什麼？",
+    "answer": "多種搜尋方法"
+  },
+  {
+    "question": "Zep使用了什麼樣的系統來減少延遲？",
+    "answer": "先進檢索系統"
+  },
+  {
+    "question": "Zep是為什麼目的而設計的？",
+    "answer": "實際應用"
+  },
+  {
+    "question": "知識圖引擎如何在Zep中運行？",
+    "answer": "動態更新"
+  },
+  {
+    "question": "Zep如何改進了解決搜索問題的過程？",
+    "answer": "引入Graphiti引擎"
+  },
+  {
+    "question": "Zep如何被驗證以提高企業使用案例？",
+    "answer": "通過LongMemEval"
+  },
+  {
+    "question": "Zep使用的語言模型名字是什麼？",
+    "answer": "gpt-4o-mini"
+  },
+  {
+    "question": "為什麼Zep能處理變化的數據？",
+    "answer": "動態反映"
+  },
+  {
+    "question": "Zep比MemGPT的主要優勢是什麼？",
+    "answer": "準確性高"
+  },
+  {
+    "question": "什麼是RAG架構的限制？",
+    "answer": "靜態檔案檢索"
+  },
+  {
+    "question": "Graphiti的優勢是什麼？",
+    "answer": "管理時態更新"
+  },
+  {
+    "question": "Zep在何種範疇展示出其優勢？",
+    "answer": "AI代理記憶"
+  },
+  {
+    "question": "Zep如何改善對話記憶檢索？",
+    "answer": "增強訪問"
+  },
+  {
+    "question": "在Zep中，什麼機制提高了精度？",
+    "answer": "再排序器"
+  },
+  {
+    "question": "Zep主要由誰開發？",
+    "answer": "Zep AI"
+  },
+  {
+    "question": "什麼是Graphiti的核心功能？",
+    "answer": "動態合成"
+  },
+  {
+    "question": "Zep允許什麼樣的知識整合？",
+    "answer": "跨會話"
+  },
+  {
+    "question": "Zep如何進行推理？",
+    "answer": "複雜時序推理"
+  },
+  {
+    "question": "在什麼方面Zep比其他方式表現優越？",
+    "answer": "企業任務"
+  },
+  {
+    "question": "Zep的開發主要針對什麼挑戰？",
+    "answer": "動態知識模擬"
+  },
+  {
+    "question": "在Zep中，如何表示時間信息？",
+    "answer": "使用時間戳"
+  },
+  {
+    "question": "什麼是Zep的基本元件？",
+    "answer": "知識圖層"
+  },
+  {
+    "question": "在何種情況下Zep更有效？",
+    "answer": "複雜任務"
+  },
+  {
+    "question": "Zep使用什麼方法來進行信息檢索？",
+    "answer": "多元檢索"
+  },
+  {
+    "question": "對於企業應用，Zep有什麼優勢？",
+    "answer": "準確高"
+  },
+  {
+    "question": "Zep的圖架構與什麼類似？",
+    "answer": "心理學模型"
+  },
+  {
+    "question": "Zep在記憶系統中提供什麼功能？",
+    "answer": "增強生成"
+  },
+  {
+    "question": "Zep提供如何的數據檢索？",
+    "answer": "動態"
+  },
+  {
+    "question": "什麼檢索方式是Zep獨有的？",
+    "answer": "廣度優先檢索"
+  },
+  {
+    "question": "Zep在什麼測試中獲得了高評價？",
+    "answer": "長期記憶評估"
+  },
+  {
+    "question": "什麼是Graphiti系統的優勢？",
+    "answer": "時序管理"
+  },
+  {
+    "question": "Zep的完整名稱是什麼？",
+    "answer": "Temporal Knowledge Graph Architecture"
+  }
+]

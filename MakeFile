@@ -1,7 +1,17 @@
-# 初始化
+# Initialize
 init:
 	pip install -r requirements.txt
 
-# 生成題目
+# Create a new environment
+env:
+	conda create -n qa_dataset python=3.10
+	conda activate qa_dataset
+	pip install -r requirements.txt
+
+# Generate questions from pdf files
 generate:
-	python generator/generator.py
+	bash scripts/generate.sh
+# Generate questions from pdf files
+
+generate_one_file:
+	bash scripts/generate_one_file.sh
