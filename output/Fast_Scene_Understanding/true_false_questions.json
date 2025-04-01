@@ -1,0 +1,206 @@
+[
+  {
+    "question": "AIR模型是用於圖像生成的嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DAIR比AIR速度更慢嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "MNIST的圖像大小是32x32嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "AIR能識別3D場景中的物件嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DAIR需要標籤數據進行訓練嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DRAW能像AIR一樣泛化嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Omniglot使用語音數據嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Sprites實驗中涉及藍色方形嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "3D渲染器是用於生成圖像的嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "隱變量用於描述數學方程嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR模式可以用於降低運算成本嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "AIR使用LSTM進行推理嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "渲染需要高解析度的影像嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "MNIST數據集中有1623個字符嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "AIR的推理模型是固定步數的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "在多物件場景中，最大物件數是5嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR比CNN模型更有效嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "3D場景推理用於現實應用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "標準推理使用非監督學習嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "推理過程中沒有使用再參數化技巧嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR在圖像識別中更加精確嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Sprites數據集總是使用兩個物件嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "3D場景推理不涉及旋轉角度嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "在推理網絡中，变量n是隨機的嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "AIR架構需要監管學習嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "生成模型只用於圖像壓縮嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "AIR可以在不提供監督下學習場景嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在Sprites實驗中使用了紅色圓形嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在訓練結束時，推理速度比真實更慢嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR可以用於處理遮蔽問題嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DAIR依賴於梯度驅動的優化嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "推理在數據解釋時很高效嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "渲染場景不需要任何場景描述嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "端到端學習只適用於有監管的場景嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "3D模型中不包括物體的旋轉嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "在訓練過程中，模型不斷改善計算效率嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "AIR能夠執行變量長度的推理嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DAIR比常規的生成自編碼更強大嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "推理只局限於2D場景嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Omniglot場景不包含手寫文本嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR能夠解決物件重複的問題嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在DAIR實驗中使用了不同數據集嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在不使用空間變換時推理更快嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "AIR依賴於一次性處理多個物件嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "AIR模型的輸入圖像始終需要標籤嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DAIR在變分自由能下表現欠佳嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "推理步驟的產生網路並不涉及監督嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "AIR使用數據來改善訓練嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DAIR需要大量的標籤來訓練嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "MNIST實驗中的數字總數超過兩位嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "對於已標記的數據，推理網絡實現了準確識別嗎？",
+    "answer": "是"
+  }
+]

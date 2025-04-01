@@ -1,0 +1,190 @@
+[
+  {
+    "question": "AIR的核心概念是什麼？",
+    "answer": "推理"
+  },
+  {
+    "question": "AIR模型是無監督還是有監督？",
+    "answer": "無監督"
+  },
+  {
+    "question": "MNIST數據集的圖像大小是多少？",
+    "answer": "50x50"
+  },
+  {
+    "question": "DAIR比DRAW哪方面表現更好？",
+    "answer": "推廣"
+  },
+  {
+    "question": "VAR的主要目的是什麼？",
+    "answer": "生成"
+  },
+  {
+    "question": "隱變量的目的是什麼？",
+    "answer": "描述場景"
+  },
+  {
+    "question": "Omniglot數據集中有多少字符？",
+    "answer": "1623"
+  },
+  {
+    "question": "支持的最大推理步數是？",
+    "answer": "4"
+  },
+  {
+    "question": "多物件場景中的最大物件數是？",
+    "answer": "3"
+  },
+  {
+    "question": "哪種網絡結構被用於AIR推理？",
+    "answer": "遞歸"
+  },
+  {
+    "question": "圖像渲染時的像素大小是？",
+    "answer": "128x128"
+  },
+  {
+    "question": "哪種數據集用於精靈實驗？",
+    "answer": "Sprites"
+  },
+  {
+    "question": "3D場景的渲染器是什麼？",
+    "answer": "MuJoCo"
+  },
+  {
+    "question": "一個物件有多少自由度？",
+    "answer": "3"
+  },
+  {
+    "question": "哪種損失用於AIR訓練？",
+    "answer": "變分"
+  },
+  {
+    "question": "DAIR的推理網絡依賴於什麼？",
+    "answer": "差異"
+  },
+  {
+    "question": "AIR推理使用哪種視窗策略？",
+    "answer": "隨機"
+  },
+  {
+    "question": "推理網絡每步所需時間是多少？",
+    "answer": "5.6ms"
+  },
+  {
+    "question": "什麼是為了測試推理速度使用的設備？",
+    "answer": "GPU"
+  },
+  {
+    "question": "場景下的最大推理時間是多少？",
+    "answer": "17ms"
+  },
+  {
+    "question": "在DAIR實驗中，最大物件數是？",
+    "answer": "3"
+  },
+  {
+    "question": "3D場景中的攝影機角度會影響什麼？",
+    "answer": "推理"
+  },
+  {
+    "question": "AIR推理步數可用於什麼？",
+    "answer": "節約計算"
+  },
+  {
+    "question": "AIR使用什麼來處理隱變量推理？",
+    "answer": "反向傳播"
+  },
+  {
+    "question": "DAIR的對象識別用於什麼場景？",
+    "answer": "複雜"
+  },
+  {
+    "question": "推理模型有多少基本網絡單元？",
+    "answer": "N"
+  },
+  {
+    "question": "在無監督學習中使用的是什麼模型？",
+    "answer": "生成"
+  },
+  {
+    "question": "實驗中對象類型總數是？",
+    "answer": "3"
+  },
+  {
+    "question": "用於數據編碼的最大網絡單位？",
+    "answer": "64"
+  },
+  {
+    "question": "在推理背景中，AIR做什麼？",
+    "answer": "解釋"
+  },
+  {
+    "question": "推理的基礎是什麼模型？",
+    "answer": "生成"
+  },
+  {
+    "question": "MNIST包含什麼的隱變量？",
+    "answer": "數字"
+  },
+  {
+    "question": "DAIR的推理方程式涉及什麼？",
+    "answer": "錯誤"
+  },
+  {
+    "question": "為何Omniglot能更好詮釋文字？",
+    "answer": "推理"
+  },
+  {
+    "question": "網絡推理需要多少計算時間？",
+    "answer": "8ms"
+  },
+  {
+    "question": "在實驗中藉由什麼來優化？",
+    "answer": "差異"
+  },
+  {
+    "question": "什麼用于啟用快速生成？",
+    "answer": "推理"
+  },
+  {
+    "question": "描繪了什麼物件的混合體？",
+    "answer": "立方體"
+  },
+  {
+    "question": "哪種技巧用於矩陣推理？",
+    "answer": "再參數化"
+  },
+  {
+    "question": "實驗中用的是什麼樣的示例？",
+    "answer": "隨機"
+  },
+  {
+    "question": "DAIR推理模式的優勢是什麼？",
+    "answer": "結構"
+  },
+  {
+    "question": "什麼能限制場景推理模型？",
+    "answer": "繁瑣"
+  },
+  {
+    "question": "設計思路中最重要的方面是？",
+    "answer": "結構"
+  },
+  {
+    "question": "DAIR和AIR在什麼方面有突出性能？",
+    "answer": "泛化"
+  },
+  {
+    "question": "渲染器策略需要多少處理時間？",
+    "answer": "3天"
+  },
+  {
+    "question": "推理步時間一般是多少？",
+    "answer": "2.3ms"
+  },
+  {
+    "question": "哪種模型规定了生成的主題？",
+    "answer": "生成"
+  }
+]

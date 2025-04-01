@@ -1,0 +1,7 @@
+# 初始化
+init:
+	pip install -r requirements.txt
+
+# 生成題目
+generate:
+	python generator/generator.py
