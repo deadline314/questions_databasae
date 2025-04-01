@@ -20,6 +20,6 @@ By incorporating a variety of question types, I aim to:
 - Evaluate their strengths and weaknesses in semantic understanding, concise response generation, and factual accuracy.
 
 ## Future Enhancements
-- [ ] **Automated Dataset Generator** Can automatly generate the three kinds of dataset from pdf file.
-- [ ] **Automated Evaluation Metrics:** Explore the use of automated scoring systems to assess the accuracy and relevance of generated responses.
-- [ ] **Expanded Dataset:** Incorporate a wider range of document types to test the models across more diverse contexts.
+- [x] Milestone 1: **Automated Dataset Generator** Can automatly generate the three kinds of dataset from pdf file.
+- [ ] Milestone 2: **Automated Evaluation Metrics:** Explore the use of automated scoring systems to assess the accuracy and relevance of generated responses.
+- [ ] Milestone 3: **Expanded Dataset:** Incorporate a wider range of document types to test the models across more diverse contexts.
