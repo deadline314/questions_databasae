@@ -15,3 +15,6 @@ generate:
 
 generate_one_file:
 	bash scripts/generate_one_file.sh
+
+merge:
+	bash scripts/merge.sh

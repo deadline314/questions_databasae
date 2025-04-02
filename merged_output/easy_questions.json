@@ -1,0 +1,1217 @@
+[
+  {
+    "question": "Zep是什麼類型的技術？",
+    "answer": "記憶層服務",
+    "filename": "Zep"
+  },
+  {
+    "question": "MemGPT的準確率是多少？",
+    "answer": "93.4%",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep使用哪種引擎？",
+    "answer": "Graphiti",
+    "filename": "Zep"
+  },
+  {
+    "question": "LongMemEval基準測試算使用Zep的準確率提升是多少？",
+    "answer": "18.5%",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep主要用於什麼應用？",
+    "answer": "企業應用",
+    "filename": "Zep"
+  },
+  {
+    "question": "RAG代表什麼？",
+    "answer": "檢索增強生成",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的結果在哪些任務中特別顯著？",
+    "answer": "企業關鍵任務",
+    "filename": "Zep"
+  },
+  {
+    "question": "Graphiti能夠動態合成哪些數據？",
+    "answer": "歷史關係",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep在何種基準測試中表現超越其他系統？",
+    "answer": "DMR",
+    "filename": "Zep"
+  },
+  {
+    "question": "Graphiti主要具備什麼性質？",
+    "answer": "時間敏感",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep能獲得什麼類型的知識？",
+    "answer": "動態知識",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的表現在哪裡得到驗證？",
+    "answer": "長期記憶評估",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的準確率比MemGPT高多少？",
+    "answer": "1.4%",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的記憶結構受什麼啟發？",
+    "answer": "人類記憶模型",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep與MemGPT的主要區別是什麼？",
+    "answer": "動態整合",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼是Graphiti的基礎架構？",
+    "answer": "知識圖",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep覆蓋的基準測試是什麼？",
+    "answer": "LongMemEval",
+    "filename": "Zep"
+  },
+  {
+    "question": "MemGPT使用什麼作為主要評估指標？",
+    "answer": "DMR",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的查詢方法主要包括什麼？",
+    "answer": "多種搜尋方法",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep使用了什麼樣的系統來減少延遲？",
+    "answer": "先進檢索系統",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep是為什麼目的而設計的？",
+    "answer": "實際應用",
+    "filename": "Zep"
+  },
+  {
+    "question": "知識圖引擎如何在Zep中運行？",
+    "answer": "動態更新",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep如何改進了解決搜索問題的過程？",
+    "answer": "引入Graphiti引擎",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep如何被驗證以提高企業使用案例？",
+    "answer": "通過LongMemEval",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep使用的語言模型名字是什麼？",
+    "answer": "gpt-4o-mini",
+    "filename": "Zep"
+  },
+  {
+    "question": "為什麼Zep能處理變化的數據？",
+    "answer": "動態反映",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep比MemGPT的主要優勢是什麼？",
+    "answer": "準確性高",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼是RAG架構的限制？",
+    "answer": "靜態檔案檢索",
+    "filename": "Zep"
+  },
+  {
+    "question": "Graphiti的優勢是什麼？",
+    "answer": "管理時態更新",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep在何種範疇展示出其優勢？",
+    "answer": "AI代理記憶",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep如何改善對話記憶檢索？",
+    "answer": "增強訪問",
+    "filename": "Zep"
+  },
+  {
+    "question": "在Zep中，什麼機制提高了精度？",
+    "answer": "再排序器",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep主要由誰開發？",
+    "answer": "Zep AI",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼是Graphiti的核心功能？",
+    "answer": "動態合成",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep允許什麼樣的知識整合？",
+    "answer": "跨會話",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep如何進行推理？",
+    "answer": "複雜時序推理",
+    "filename": "Zep"
+  },
+  {
+    "question": "在什麼方面Zep比其他方式表現優越？",
+    "answer": "企業任務",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的開發主要針對什麼挑戰？",
+    "answer": "動態知識模擬",
+    "filename": "Zep"
+  },
+  {
+    "question": "在Zep中，如何表示時間信息？",
+    "answer": "使用時間戳",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼是Zep的基本元件？",
+    "answer": "知識圖層",
+    "filename": "Zep"
+  },
+  {
+    "question": "在何種情況下Zep更有效？",
+    "answer": "複雜任務",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep使用什麼方法來進行信息檢索？",
+    "answer": "多元檢索",
+    "filename": "Zep"
+  },
+  {
+    "question": "對於企業應用，Zep有什麼優勢？",
+    "answer": "準確高",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的圖架構與什麼類似？",
+    "answer": "心理學模型",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep在記憶系統中提供什麼功能？",
+    "answer": "增強生成",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep提供如何的數據檢索？",
+    "answer": "動態",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼檢索方式是Zep獨有的？",
+    "answer": "廣度優先檢索",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep在什麼測試中獲得了高評價？",
+    "answer": "長期記憶評估",
+    "filename": "Zep"
+  },
+  {
+    "question": "什麼是Graphiti系統的優勢？",
+    "answer": "時序管理",
+    "filename": "Zep"
+  },
+  {
+    "question": "Zep的完整名稱是什麼？",
+    "answer": "Temporal Knowledge Graph Architecture",
+    "filename": "Zep"
+  },
+  {
+    "question": "Spark-TTS使用的編碼器是什麼？",
+    "answer": "BiCodec",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec有幾種碼元？",
+    "answer": "兩種",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox的語料時長？",
+    "answer": "100,000小時",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Spark-TTS解碼器使用什麼？",
+    "answer": "BiCodec",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語義碼元的比特率是多少？",
+    "answer": "低位率",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "全局碼元是什麼類型？",
+    "answer": "固定長度",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VQ-VAE是用於什麼？",
+    "answer": "編解碼",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Spark-TTS可以控制的屬性有哪些？",
+    "answer": "性別、音高、速率",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的碼本大小是多少？",
+    "answer": "8192",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "用於語義碼元的模型是什麼？",
+    "answer": "wave2vec 2.0",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox包含多少開源數據集？",
+    "answer": "29",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語義碼元速率是多少TPS？",
+    "answer": "50 TPS",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "全局碼元如何量化？",
+    "answer": "FSQ",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音合成使用的主要語言模型是？",
+    "answer": "Qwen2.5",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "可控TTS的屬性級別有哪些？",
+    "answer": "粗粒度和細粒度",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的特點是什麼？",
+    "answer": "靈活性",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的解碼器架構是什麼？",
+    "answer": "ConvNeXt",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音代碼化技術的挑戰是什麼？",
+    "answer": "聲紋控制",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "哪些指標用來評估語音質量？",
+    "answer": "PESQ, STOI",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Spark-TTS提供什麼樣的TTS功能？",
+    "answer": "零樣本",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec用於什麼技術？",
+    "answer": "語音合成",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音屬性標註在VoxBox中是什麼？",
+    "answer": "多樣",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "什麼結構用於處理LM輸出？",
+    "answer": "BiCodec",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox有多少音頻文件？",
+    "answer": "4700萬",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "控制講話速率使用什麼單位？",
+    "answer": "SPS",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox是哪種開源資源？",
+    "answer": "語音",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的量化技術是什麼？",
+    "answer": "FSQ",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "主要的語言模型是什麼？",
+    "answer": "Qwen2.5",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "性別和年齡分類使用什麼工具？",
+    "answer": "WavLM-large",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的碼本類型是什麼？",
+    "answer": "單碼書",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Spark-TTS的目的是什麼？",
+    "answer": "提升TTS效率",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec中使用的特徵來自哪裡？",
+    "answer": "wav2vec 2.0",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox數據集的語言種類有多少？",
+    "answer": "多種",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec解決了什麼問題？",
+    "answer": "語音合成複雜性",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Spark-TTS的模型參數是多少？",
+    "answer": "0.5B",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "哪些數據集用於訓練BiCodec？",
+    "answer": "LibriSpeech等",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "單一流代碼預測與什麼並行使用？",
+    "answer": "生成模型",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "什麼是SparkVox用於的任務？",
+    "answer": "語音相關",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "VoxBox的性別標註準確率是多少？",
+    "answer": "99.4%",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec運行在什麼條件下？",
+    "answer": "50 TPS, 0.65 kbps",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "什麼類型的控制是VoxBox支持的？",
+    "answer": "語音屬性",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音控制系統能調整的屬性是？",
+    "answer": "性別、音高、速度",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "FSQ的目的是什麼？",
+    "answer": "時不變碼元",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "BiCodec的編碼速度是什麼？",
+    "answer": "50 TPS",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音生成的架構簡化了什麼？",
+    "answer": "合成流程",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語義碼元從何而來？",
+    "answer": "預訓練wav2vec 2.0",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "語音合成的主要挑戰是什麼？",
+    "answer": "語音質量",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "什麼平台提供聲音數據集？",
+    "answer": "VoxBox",
+    "filename": "Spark_TTS"
+  },
+  {
+    "question": "Cosmos-Reason1有多少模型？",
+    "answer": "2",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1的視覺編碼器輸出多少個token？",
+    "answer": "1024",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI的RL資料集中有多少道題？",
+    "answer": "24079",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1中每個幀大小是多少？",
+    "answer": "448×448",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1包含多少個子類別？",
+    "answer": "16",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "影片片段中最大幀率是多少幀每秒？",
+    "answer": "2",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1-56B的LLM層數是多少？",
+    "answer": "118",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理常識的子類別有多少？",
+    "answer": "16",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI的資料集中影片時長是多少小時？",
+    "answer": "70",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI強化學習的迭代多少次？",
+    "answer": "500",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "下列哪種方法用來識別多模態模型？",
+    "answer": "解碼器",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1可以產生的輸出格式是？",
+    "answer": "自然語言",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "反向推理的影片資料集包含幾個影片數量？",
+    "answer": "30000",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "下列哪一個是物理AI的推理類別？",
+    "answer": "嵌入式推理",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "該模型是為什麼而設計？",
+    "answer": "物理AI",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "直覺物理學訓練中影片數多少？",
+    "answer": "100",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1-8B中的注意力頭數量是？",
+    "answer": "32",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI模型如何獲得訓練資料？",
+    "answer": "註釋",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Benchmark包含多少個影片剪輯？",
+    "answer": "426",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理常識推理設計中，時間切片類別是？",
+    "answer": "Order",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1可以處理的模態有多少個？",
+    "answer": "兩個",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI SFT的影片用於預訓練多少？",
+    "answer": "8M",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "嵌入式推理涵蓋多少具體應用場景？",
+    "answer": "5",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "該模型如何應對影片和文字資訊？",
+    "answer": "多模態",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "在物件恆常性資料集中影片剪輯的數量為多少？",
+    "answer": "10000",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "模型的動詞推理在哪類問題中最有效？",
+    "answer": "時間箭頭",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理常識推理類別中的環境類別？",
+    "answer": "Space",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1在什麼類別中最優？",
+    "answer": "空間拼圖",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI資料集中，註釋是透過什麼方式獲得的？",
+    "answer": "人工",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "在物理AI RL中有多少種獲取獎勵方式？",
+    "answer": "2",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI模型要求兼具哪兩項能力？",
+    "answer": "感知和推理",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "具體行動辨識需要處理哪種視覺輸入？",
+    "answer": "原始輸入",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "構建模型的四個訓練階段之一是什麼？",
+    "answer": "物理AI SFT",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "下列選項中該模型主要針對哪個領域設計？",
+    "answer": "物理世界",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1在什麼資料集上表現出色？",
+    "answer": "空間拼圖",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI模型的邏輯過程需要特別處理什麼？",
+    "answer": "物理限制",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "自監督訓練資料包含多少個拼圖影片？",
+    "answer": "11000",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "嵌入式推理模型正確處理物體如何轉移？",
+    "answer": "預測",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "影片的平鋪維度是多少？",
+    "answer": "14×14",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "影片得以呈現的處理方式是什麼？",
+    "answer": "投影",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "下列選項中模型旨在解決什麼問題？",
+    "answer": "物理推理",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "模型用來識別物體持續存在的特徵為？",
+    "answer": "恆常性",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "針對物理世界中AI應用哪類技術？",
+    "answer": "大模型",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI需要考慮的主要行動約束為何？",
+    "answer": "物理情況",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "Cosmos-Reason1在哪種推理中具備視覺能力？",
+    "answer": "視覺-文字",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "物理AI的資料集中使用了多少小時的類別？",
+    "answer": "166",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "用於推理訓練的物理常識問題有多少？",
+    "answer": "5133",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "共有哪些類別的物理常識推理問題？",
+    "answer": "三個",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "推理任務中空間拼圖的總數是多少？",
+    "answer": "11k",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "模型使用多模態處理方法的目的是什麼？",
+    "answer": "生成反應",
+    "filename": "Cosmos-Reason1"
+  },
+  {
+    "question": "電動輔助自行車的首選品牌有哪些？",
+    "answer": "Giant/Liv/Momentum",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "EnergyPak 的主要功能是什麼？",
+    "answer": "供電",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "使用自行車前應檢查什麼？",
+    "answer": "電池和功能",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "電池應如何存放？",
+    "answer": "乾燥安全處",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "智慧型輔助可以怎麼激活？",
+    "answer": "按住按鈕",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideControl Dash 可顯示什麼資訊？",
+    "answer": "速度、電量等",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "如何開始充電？",
+    "answer": "連接充電器",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "EnergyPak 應使用的溫度範圍是多少？",
+    "answer": "0°C到45°C",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "什麼是步行輔助的最大速度？",
+    "answer": "6km/h",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideControl Ergo 可以連接什麼應用程式？",
+    "answer": "RideControl",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "應用程式的最小版本要求是？",
+    "answer": "v1.8.1",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "電池電量低於多少時會切換至最低輔助等級？",
+    "answer": "3%",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "LED 顯示器可以顯示哪幾種顏色？",
+    "answer": "紅、綠、黃、藍",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "最大支援速度的要求是什麼？",
+    "answer": "45km/h",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "Shimano STI Lever 的主要功能是什麼？",
+    "answer": "輔助調整",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "雨雪可能導致什麼問題？",
+    "answer": "零件損壞",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "維護時不應使用什麼？",
+    "answer": "高壓水",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "充電時間應在什麼溫度範圍內？",
+    "answer": "0°C~45°C",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "系統事件時應查看哪一個指示器？",
+    "answer": "LED",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideControl Dash 提供的數據類型有哪些？",
+    "answer": "速度、距離",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "電池滿電時如何處理？",
+    "answer": "斷開連接",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "智慧型輔助的顯示顏色是什麼？",
+    "answer": "藍色",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "如何清潔自行車？",
+    "answer": "軟布",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "能源存儲模式下的充電狀態如何？",
+    "answer": "60%",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "EnergyPak 側拉式充電器的容量是多少？",
+    "answer": "250 Wh",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "儲存和運送電池時需注意什麼？",
+    "answer": "乾燥",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideDash EVO 顯示在哪裡安裝？",
+    "answer": "車把中央",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "如何確保車輛最佳性能？",
+    "answer": "一般維護",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "最大負載會隨什麼改變？",
+    "answer": "自行車規格",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "為什麼需要拆卸 EnergyPak？",
+    "answer": "技術檢查",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "系統事件中電池狀態如何提示？",
+    "answer": "紅色閃爍",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "存放電池應避免什麼？",
+    "answer": "高溫和濕度",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "什麼條件下電池不能隨垃圾處理？",
+    "answer": "損壞或使用過",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideControl Ergo 提供哪些功能？",
+    "answer": "輔助、照明",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "法律文件中提供什麼信息？",
+    "answer": "保固和排除",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "電池條件可能因什麼因素改變？",
+    "answer": "使用和環境",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "在什麼樣的條件下不應運送自行車？",
+    "answer": "惡劣天候",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideDash 的主要顯示是什麼？",
+    "answer": "彩色螢幕",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "驅動系統的問題該怎麼辦？",
+    "answer": "聯繫經銷商",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "如何調整輔助等級？",
+    "answer": "按按鈕",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "何時需要檢查鏈條張力？",
+    "answer": "當鬆動",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "在什麼情況下會出現系統事件？",
+    "answer": "故障",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "RideControl Dash 什麼顏色的 LED 表示充電完成？",
+    "answer": "綠色",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "什麼情況下需要系統維修？",
+    "answer": "問題未解決",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "USB-C 用於什麼用途？",
+    "answer": "充電",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "哪些零件可能會受潮損壞？",
+    "answer": "電子零件",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "在什麼條件下加速將消耗更多能量？",
+    "answer": "高輔助等級",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "如何清除子資料欄位？",
+    "answer": "按住按鈕",
+    "filename": "E-bikeUsermanualV100"
+  },
+  {
+    "question": "AIR的核心概念是什麼？",
+    "answer": "推理",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "AIR模型是無監督還是有監督？",
+    "answer": "無監督",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "MNIST數據集的圖像大小是多少？",
+    "answer": "50x50",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR比DRAW哪方面表現更好？",
+    "answer": "推廣",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "VAR的主要目的是什麼？",
+    "answer": "生成",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "隱變量的目的是什麼？",
+    "answer": "描述場景",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "Omniglot數據集中有多少字符？",
+    "answer": "1623",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "支持的最大推理步數是？",
+    "answer": "4",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "多物件場景中的最大物件數是？",
+    "answer": "3",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "哪種網絡結構被用於AIR推理？",
+    "answer": "遞歸",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "圖像渲染時的像素大小是？",
+    "answer": "128x128",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "哪種數據集用於精靈實驗？",
+    "answer": "Sprites",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "3D場景的渲染器是什麼？",
+    "answer": "MuJoCo",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "一個物件有多少自由度？",
+    "answer": "3",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "哪種損失用於AIR訓練？",
+    "answer": "變分",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR的推理網絡依賴於什麼？",
+    "answer": "差異",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "AIR推理使用哪種視窗策略？",
+    "answer": "隨機",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "推理網絡每步所需時間是多少？",
+    "answer": "5.6ms",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "什麼是為了測試推理速度使用的設備？",
+    "answer": "GPU",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "場景下的最大推理時間是多少？",
+    "answer": "17ms",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "在DAIR實驗中，最大物件數是？",
+    "answer": "3",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "3D場景中的攝影機角度會影響什麼？",
+    "answer": "推理",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "AIR推理步數可用於什麼？",
+    "answer": "節約計算",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "AIR使用什麼來處理隱變量推理？",
+    "answer": "反向傳播",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR的對象識別用於什麼場景？",
+    "answer": "複雜",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "推理模型有多少基本網絡單元？",
+    "answer": "N",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "在無監督學習中使用的是什麼模型？",
+    "answer": "生成",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "實驗中對象類型總數是？",
+    "answer": "3",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "用於數據編碼的最大網絡單位？",
+    "answer": "64",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "在推理背景中，AIR做什麼？",
+    "answer": "解釋",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "推理的基礎是什麼模型？",
+    "answer": "生成",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "MNIST包含什麼的隱變量？",
+    "answer": "數字",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR的推理方程式涉及什麼？",
+    "answer": "錯誤",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "為何Omniglot能更好詮釋文字？",
+    "answer": "推理",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "網絡推理需要多少計算時間？",
+    "answer": "8ms",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "在實驗中藉由什麼來優化？",
+    "answer": "差異",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "什麼用于啟用快速生成？",
+    "answer": "推理",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "描繪了什麼物件的混合體？",
+    "answer": "立方體",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "哪種技巧用於矩陣推理？",
+    "answer": "再參數化",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "實驗中用的是什麼樣的示例？",
+    "answer": "隨機",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR推理模式的優勢是什麼？",
+    "answer": "結構",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "什麼能限制場景推理模型？",
+    "answer": "繁瑣",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "設計思路中最重要的方面是？",
+    "answer": "結構",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "DAIR和AIR在什麼方面有突出性能？",
+    "answer": "泛化",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "渲染器策略需要多少處理時間？",
+    "answer": "3天",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "推理步時間一般是多少？",
+    "answer": "2.3ms",
+    "filename": "Fast_Scene_Understanding"
+  },
+  {
+    "question": "哪種模型规定了生成的主題？",
+    "answer": "生成",
+    "filename": "Fast_Scene_Understanding"
+  }
+]
