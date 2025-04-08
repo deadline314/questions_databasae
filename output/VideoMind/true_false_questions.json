@@ -1,0 +1,202 @@
+[
+  {
+    "question": "VideoMind是一種多模態代理嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind使用Chain-of-LoRA增強性能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "驗證器的主要功能是提供答案嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "時序推理在靜態圖像中是必需的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind能夠處理長度超過一小時的視頻嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "活動網-RTL是用於視頻字幕生成的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "LoRA適配器用於角色的切換嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind僅適用於靜態圖像理解嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "所有功能都在VideoMind的同一個基礎模型上實現嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind在短視頻理解上無法執行嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Grounder負責定位視頻片段嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Chain-of-LoRA策略僅適用於視覺模型嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "驗證器確認時間界限的準確性嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind需要用到多個完整模型嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "驗證器的答案可以是'也許'嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "視頻推理不需要時間戳嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind能夠優化推理過程嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "驗證器可以使用文字描述進行驗證嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Charades-STA是關於戶外活動的數據集嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind能夠自動調整角色嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Grounder需要知道準確的時間界限嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在VideoMind中，Answerer提供了最終的回答嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "活動網-RTL旨在促進廚房活動的研究嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ReXTime專注於單幀分析嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Chain-of-LoRA策略提供靈活性和效率嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind僅為單個角色設計嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "答題者角色使用原始的視頻片段嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "驗證器的結果可以由兩種狀態組成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "NExT-GQA是推理基準的一部分嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在VideoMind中，角色在同一個基礎上切換嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "視頻理解需要時序片段嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "LoRA可用於不同角色的適配嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Grounder的設計略過了視頻片段的準確定位嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "視頻解析不需要答案生成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind是基於人類推理過程設計的嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "驗證器可以在沒有視頻段的情況下工作嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "答題者可以提供不完整的回答嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind在多模態推理方面無需改進嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "可使VideoMind與人工智慧助理相似嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind能直接從文本生成答案嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "時序推理僅源於視覺理解嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "活動網-RTL設計用於長時段視頻嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "時間戳解碼在Grounder中不重要嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind在多個基準上都表現良好嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Chain-of-LoRA策略優化了內存使用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "VideoMind的設計目標是增強靈活性嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Verifier的任務是確認Grounder的準確性嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "所有角色可在同一模型中加載嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "視頻推理不需要時序理解嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "VideoMind在時序推理中率先使用LoRA嗎？",
+    "answer": "是"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "question": "什麼是Agent S2用於GUI定位的創新技術？",
+    "answer": "Mixture-of-Grounding技術。"
+  },
+  {
+    "question": "Agent S2如何動態最佳化任務計劃？",
+    "answer": "透過引入Proactive Hierarchical Planning方法。"
+  },
+  {
+    "question": "Agent S2在OSWorld 15-step和50-step評估中的相對改進是多少？",
+    "answer": "18.9%和32.7%。"
+  },
+  {
+    "question": "Agent S2在WindowsAgentArena中超過了先前方法的百分比是多少？",
+    "answer": "52.8%。"
+  },
+  {
+    "question": "Agent S2在AndroidWorld中超過了先前方法的百分比是多少？",
+    "answer": "16.52%。"
+  },
+  {
+    "question": "為什麼單個通用型模型在多工上表現不佳？",
+    "answer": "因為無法在領域特定子任務中與專家模式匹敵。"
+  },
+  {
+    "question": "Agent S2的核心組成部分有哪些？",
+    "answer": "Manager M、Worker W和Mixture of Grounding Experts。"
+  },
+  {
+    "question": "視覺定位專家的輸入是什麼？",
+    "answer": "當前觀察截圖和特定點的語言描述。"
+  },
+  {
+    "question": "文字定位專家如何定位字元？",
+    "answer": "使用光學字元識別（OCR），透過p1和p2確定文字範圍。"
+  },
+  {
+    "question": "結構化定位專家處理的主要問題是哪些？",
+    "answer": "定位電子表格和表格內容。"
+  },
+  {
+    "question": "高效的UI元素定位對於計算機使用代理有哪些挑戰？",
+    "answer": "難以精確定位螢幕上的興趣區。"
+  },
+  {
+    "question": "什麼是部分可觀察馬爾科夫決策過程（POMDP）？",
+    "answer": "描述計算機使用任務的方案，其中包括狀態空間、觀察空間、動作空間、狀態轉移函式和獎勵函式。"
+  },
+  {
+    "question": "什麼是Agent S2中使用的視覺定位專家的能力？",
+    "answer": "生成低階別精確座標，能夠在螢幕上任何點執行操作。"
+  },
+  {
+    "question": "Agent S2在處理長時間任務上有哪些優勢？",
+    "answer": "能夠動態最佳化和重組計劃，適應隨時間演變的觀察。"
+  },
+  {
+    "question": "在Agent S2中，什麼是重要的策略來提高任務執行成功率？",
+    "answer": "使用多專家協作的Mixture of Grounding方法和Proactive Hierarchical Planning策略。"
+  },
+  {
+    "question": "在系統中，哪些任務可以受益於專門的模型強項？",
+    "answer": "規劃、執行和定位。"
+  },
+  {
+    "question": "什麼樣的方法極大提升了計算機使用代理的表現？",
+    "answer": "使用多樣化專家團隊進行精確定位。"
+  },
+  {
+    "question": "Agent S2中“互動能力提升”行為有哪些好處？",
+    "answer": "可以在UI上交替使用不同的定位專家進行細化互動。"
+  },
+  {
+    "question": "什麼是“Mixture of Grounding”中“專家團隊”的作用？",
+    "answer": "生成用於執行動作的精準定位。"
+  },
+  {
+    "question": "“Proactive Hierarchical Planning”如何提高任務成功率？",
+    "answer": "透過在每完成一個子目標後重新調整計劃，適應新的觀察。"
+  },
+  {
+    "question": "Agent S2在應用程式任務中如何體現其模組化優勢？",
+    "answer": "透過特定專家來處理不同類別的UI元素，例如文字定位和表格定位。"
+  },
+  {
+    "question": "如何衡量Agent S2的視覺定位專家模型的效能？",
+    "answer": "透過比較其與不同視覺定位模型在15步任務中的表現。"
+  },
+  {
+    "question": "介紹中的“通用型-專家型”框架是指什麼？",
+    "answer": "通用型用於計劃，多專家組合用於精細定位和執行。"
+  },
+  {
+    "question": "Agent S2如何改善文字定位的成功率？",
+    "answer": "使用OCR技術準確識別文字邊界。"
+  },
+  {
+    "question": "在OSWorld的15步評估中，Agent S2比Claude-3.7-Sonnet更成功的原因有哪些？",
+    "answer": "使用了更有效的文字和結構化定位專家。"
+  },
+  {
+    "question": "什麼是Agent S2框架中引入的“模組化行動空間”？",
+    "answer": "是一種啟發式介面，簡化動作選擇和引數定義過程。"
+  },
+  {
+    "question": "什麼是對Agent S2任務失敗型別的分析用來評估？",
+    "answer": "用來確定Agent S2在規劃、定位和互動中的瓶頸。"
+  },
+  {
+    "question": "在Agent S2的學習中，哪一類知識有助於提高其表現？",
+    "answer": "結合使用上下文和低階子目標互動經驗的知識庫。"
+  },
+  {
+    "question": "Agent S2的文字定位專家負責什麼？",
+    "answer": "用OCR技術從文字中提取文字範圍座標。"
+  },
+  {
+    "question": "Agent S2如何在OSWorld中展示其高水平的可擴充套件性和有效性？",
+    "answer": "在15-step和50-step評估中取得了領先的表現。"
+  },
+  {
+    "question": "什麼是Agent S2用於應對導航挑戰的策略？",
+    "answer": "透過重複交替的互動方式，增強導航和互動能力。"
+  },
+  {
+    "question": "什麼是視覺定位專家的關鍵作用？",
+    "answer": "允許在螢幕上任意點執行操作，而不僅限於選擇高層次元素。"
+  },
+  {
+    "question": "Agent S2如何在複雜的計算機使用任務中分配認知責任？",
+    "answer": "透過組合通用的層次規劃模組和專業的定位模組。"
+  },
+  {
+    "question": "Agent S2如何面對環境變化保持魯棒性？",
+    "answer": "透過Proactive Hierarchical Planning在不同時間尺度上進行重規劃。"
+  },
+  {
+    "question": "Agent S2的實驗覆蓋了哪些主要評估基準？",
+    "answer": "OSWorld、WindowsAgentArena和AndroidWorld。"
+  },
+  {
+    "question": "在Agent S2框架中，如何體現響應式和主動式規劃的對比？",
+    "answer": "響應式規劃僅在子任務失敗時更新計劃，而主動式規劃在每個子任務後重新評估和更新計劃。"
+  },
+  {
+    "question": "什麼是Agent S2在視覺定位時所需的主要輸入？",
+    "answer": "當前觀察截圖和特定視覺點的語言描述。"
+  },
+  {
+    "question": "Proactive Hierarchical Planning如何幫助Agent S2適應新的觀察？",
+    "answer": "透過在每完成一個子目標後更新計劃來適應變化。"
+  },
+  {
+    "question": "在Agent S2中，什麼技術幫助在長時間許可範圍內提升成功率？",
+    "answer": "使用Proactive Planning和Mixture of Grounding技術。"
+  },
+  {
+    "question": "“Mixture of Grounding”中視覺定位專家的任務是什麼？",
+    "answer": "生成低階別精確座標，實現螢幕上任意點的操作。"
+  },
+  {
+    "question": "Agent S2在“混合定位”策略中是如何操作的？",
+    "answer": "每個執行步驟中，Worker將動作路由到相應的專家，專家生成畫素級座標。"
+  },
+  {
+    "question": "如何測量Agent S2在OSWorld中的成功率？",
+    "answer": "根據15-step和50-step評估的表現進行測量。"
+  },
+  {
+    "question": "什麼是結構化定位專家在Agent S2中的任務？",
+    "answer": "管理和更新電子表格元素，實現模組化和快速定位。"
+  },
+  {
+    "question": "Agent S2在Windows作業系統上的表現如何？",
+    "answer": "在WindowsAgentArena中表現優異，顯現跨作業系統的推廣能力。"
+  },
+  {
+    "question": "在Agent S2中, 什麼因素限制了計算機使用代理的整體效能？",
+    "answer": "依賴單一通用型模型執行多樣認知任務。"
+  },
+  {
+    "question": "什麼是“視覺定位專家”在Agent S2中具有的顯著優勢？",
+    "answer": "允許操作任何螢幕點，而不僅限於選擇高階元素，擴大了可能互動的範圍。"
+  },
+  {
+    "question": "Agent S2的“文字定位專家”的輸入資料是什麼？",
+    "answer": "當前觀察截圖和文字範圍起止的確切詞序列。"
+  },
+  {
+    "question": "在“AndroidWorld”中，Agent S2如何證明其通用性？",
+    "answer": "在智慧手機任務中超過了現有的最先進方法。"
+  },
+  {
+    "question": "在WindowsAgentArena中，Agent S2相較於其他代理有何優勢？",
+    "answer": "在多個類別中展現了出色的跨作業系統推廣能力。"
+  }
+]

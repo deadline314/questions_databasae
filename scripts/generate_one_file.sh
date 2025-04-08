@@ -1,1 +1,0 @@
-python src/generator_one_file.py

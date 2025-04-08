@@ -1,0 +1,62 @@
+[
+  { "question": "VideoMind的主要用途是什麼？", "answer": "影片推理" },
+  { "question": "VideoMind的核心技術是什麼？", "answer": "Chain-of-LoRA" },
+  {
+    "question": "VideoMind涉及的關鍵角色有哪些？",
+    "answer": "Planner, Grounder, Verifier, Answerer"
+  },
+  { "question": "VLM指的是什麼？", "answer": "視覺語言模型" },
+  { "question": "影片的獨特挑戰是什麼？", "answer": "時序維度" },
+  { "question": "VideoMind的大小是多少？", "answer": "2B和7B" },
+  { "question": "GPT-4o的表現如何？", "answer": "優異" },
+  { "question": "ReXTime的主要測試什麼？", "answer": "時間推理" },
+  { "question": "NExT-GQA的目的是什麼？", "answer": "推理時序與因果" },
+  { "question": "Chain-of-LoRA用來解決什麼問題？", "answer": "多角色協作" },
+  { "question": "VideoMind中Grounder的作用是什麼？", "answer": "定位影片段落" },
+  { "question": "Grounder使用什麼特別的設計元件？", "answer": "<REG>標記" },
+  {
+    "question": "VideoMind在哪些基準表現出色？",
+    "answer": "CG-Bench, ReXTime, NExT-GQA"
+  },
+  {
+    "question": "什麼是透過語音加強的推理策略？",
+    "answer": "Chain-of-Thought"
+  },
+  { "question": "影片時空定位用於什麼？", "answer": "查詢具體事件" },
+  {
+    "question": "在哪些領域中應用了推理時間搜尋技術？",
+    "answer": "機器人, 遊戲, 導航"
+  },
+  { "question": "VideoMind使用哪種方法進行模型轉換？", "answer": "LoRA" },
+  { "question": "時序特徵金字塔能改善什麼？", "answer": "適應性" },
+  { "question": "Verifier的最終答案是什麼格式？", "answer": "是或否" },
+  { "question": "VideoMind的答題者角色負責什麼？", "answer": "回答問題" },
+  { "question": "Fine-tuning針對什麼進行最佳化？", "answer": "模型引數" },
+  { "question": "VideoMind中的計畫者可以做什麼？", "answer": "調整角色" },
+  { "question": "VideoMind的實驗用來測試什麼？", "answer": "靈活性和效果" },
+  { "question": "模板中<Yes>和<No>用於做什麼？", "answer": "信心評分" },
+  { "question": "在VideoMind中使用了哪些大型語言模型？", "answer": "Qwen2-VL" },
+  { "question": "LoRA介面卡用於什麼？", "answer": "角色轉換" },
+  { "question": "VideoMind的主要研究範疇是什麼？", "answer": "影片理解" },
+  { "question": "影片推理需要考慮什麼的動態互動？", "answer": "時間" },
+  { "question": "VideoMind的設計思想是什麼？", "answer": "最小靈活設計" },
+  { "question": "訓練資料集主要來自哪裡？", "answer": "NExT-QA, QVHighlights" },
+  { "question": "驗證器的角色是什麼？", "answer": "檢驗時序準確性" },
+  { "question": "Chain-of-LoRA的優勢是什麼？", "answer": "有效率和靈活性" },
+  { "question": "影片時序推理的主要挑戰是什麼？", "answer": "精確時序定位" },
+  { "question": "Grounder預測的是什麼？", "answer": "時間戳" },
+  { "question": "VideoMind中哪個角色生成最終回答？", "answer": "Answerer" },
+  { "question": "文字樣本的平行檢驗用於什麼？", "answer": "提高準確性" },
+  { "question": "Grounder輸出的形狀是什麼？", "answer": "[tstart, tend]" },
+  { "question": "答題者的選項評估標準是什麼？", "answer": "文字特徵" },
+  { "question": "Charades-STA提供什麼資料?", "answer": "室內影片" },
+  { "question": "實驗中使用了哪些基準？", "answer": "CG-Bench, ReXTime" },
+  { "question": "在VideoMind中，角色的切換如何實現？", "answer": "LoRA介面卡" },
+  { "question": "驗證器是如何得出最終結論的？", "answer": "是或否決策" },
+  { "question": "VideoMind的效用在哪些影片上被測試？", "answer": "長影片" },
+  { "question": "VideoMind在什麼樣的測試中表現出色？", "answer": "長影片推理" },
+  { "question": "影片語言模型(VLM)提供什麼樣功能？", "answer": "視覺語言理解" },
+  { "question": "視覺化推理涉及哪些步驟？", "answer": "定位、驗證、回答" },
+  { "question": "VideoMind是基於什麼開發的？", "answer": "Qwen2-VL" },
+  { "question": "每個角色的特殊處理元素是什麼？", "answer": "LoRA" }
+]

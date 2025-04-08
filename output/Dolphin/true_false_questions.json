@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Dolphin模型支持40種東部語言，對嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的模型是基於自注意力機制的，對嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin公開了其專有訓練數據，對嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin的參數比Whisper少，對嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin使用CTC-Attention架構，對嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的大模型不支援多種語言，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin能有效識別中文方言，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper模型的重現性問題已經解決，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin僅使用公有數據集訓練，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin提供的推理代碼是免費的，對嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin模型不支援語言識別，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper基於深度神經網路嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin針對西部語言優化，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin的訂正率比Whisper高，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的Time Shift固定為40ms嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin在某些情況下WER優於Whisper，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper支持22種方言，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin包含聲音活動檢測，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin支持全自動化語音識別，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的訓練集不包括互聯網數據，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin模型不專注於ASR，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper支持自動翻譯功能，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin在多語言ASR中表現出色，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin中使用了多層變壓器結構，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的改進來自於OWSM，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的數據集涵蓋100個語言，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin在擴展語言覆蓋上沒有計劃，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin沒有使用內部語音數據，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper的開源性有助於重現性，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的訓練沒有使用SpecAugment，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin能有效處理中英文識別，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的介面代碼不可用，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin在東部語言上的WER低於Whisper，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的文本標注是人工作業，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin方法源於Whisper模型，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin中的數據清理不包含時間戳檢查，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper支持序列到序列的轉換，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin沒有公開其小型模型，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin計劃擴展到低資源語言，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的時間戳策略與Whisper不同，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper的大模型在所有語言中都有優勢，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin僅專注於單一模式，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin模型的大模型在所有測試集上表現出色，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的批次大小超過256，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper和Dolphin模型一樣大小，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin設計只支持已知語言，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin模型只適用於東部語言，是嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper並未計劃擴大語言支持範圍，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Dolphin不支持中文識別功能，是嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper的模型具有可重現性問題，是嗎？",
+    "answer": "是"
+  }
+]

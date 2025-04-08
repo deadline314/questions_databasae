@@ -1,0 +1,198 @@
+[
+  {
+    "question": "OASIS可以模擬多少名用戶？",
+    "answer": "1百萬"
+  },
+  {
+    "question": "地球的形狀是什麼？",
+    "answer": "圓的"
+  },
+  {
+    "question": "使用OASIS的主要LLM是什麼？",
+    "answer": "開源"
+  },
+  {
+    "question": "OASIS支持哪兩個平台的模擬？",
+    "answer": "X和Reddit"
+  },
+  {
+    "question": "推薦系統使用的模型名稱是什麼？",
+    "answer": "TwHIN-BERT"
+  },
+  {
+    "question": "OASIS的主要功能之一是什麼？",
+    "answer": "用戶模擬"
+  },
+  {
+    "question": "群組極化是什麼效應？",
+    "answer": "意見變得更加極端"
+  },
+  {
+    "question": "Reddit的推薦系統依賴於什麼來優先推薦帖子？",
+    "answer": "熱門分數"
+  },
+  {
+    "question": "參與項目的學校之一是什麼？",
+    "answer": "牛津大學"
+  },
+  {
+    "question": "每個時間步驟在OASIS中等於幾分鐘？",
+    "answer": "3"
+  },
+  {
+    "question": "信息傳播實驗使用了哪些數據集？",
+    "answer": "Twitter15和Twitter16"
+  },
+  {
+    "question": "誰提供了建設性的建議和指導？",
+    "answer": "Bernard Ghanem"
+  },
+  {
+    "question": "OASIS的五個主要組件之一是什麼？",
+    "answer": "時間引擎"
+  },
+  {
+    "question": "大規模用戶實驗涉及多少用戶？",
+    "answer": "1百萬"
+  },
+  {
+    "question": "Reddit評論數據集中有多少條評論？",
+    "answer": "116,932"
+  },
+  {
+    "question": "在Reddit實驗中，是否允許用戶撤回點贊或不喜歡？",
+    "answer": "不允許"
+  },
+  {
+    "question": "X的推薦帖子來自哪兩個來源？",
+    "answer": "網內和網外"
+  },
+  {
+    "question": "在實驗中，X推文的最大深度一般是多少？",
+    "answer": "3.5"
+  },
+  {
+    "question": "Reddit實驗中討論的主題數量為多少？",
+    "answer": "7"
+  },
+  {
+    "question": "OASIS中描述用戶的表格名是什麼？",
+    "answer": "用戶表"
+  },
+  {
+    "question": "何時需要使用‘創建評論’功能？",
+    "answer": "分享想法"
+  },
+  {
+    "question": "Llama-3-8B使用於哪一模塊？",
+    "answer": "行動模塊"
+  },
+  {
+    "question": "OASIS支持的行為類型有多少種？",
+    "answer": "21"
+  },
+  {
+    "question": "推薦系統是否可以調整帖子數量？",
+    "answer": "可以"
+  },
+  {
+    "question": "OASIS的時間引擎使用什麼啟動代理？",
+    "answer": "時間特徵"
+  },
+  {
+    "question": "核心用戶佔X用戶的百分比是何？",
+    "answer": "80%"
+  },
+  {
+    "question": "代理的激活由哪個引擎管理？",
+    "answer": "時間引擎"
+  },
+  {
+    "question": "TwHIN-BERT的預訓練語言超過多少？",
+    "answer": "100種"
+  },
+  {
+    "question": "偽造信息比官方新聞更具影響力嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "小世界模型於哪年被提出？",
+    "answer": "1999"
+  },
+  {
+    "question": "OASIS是基於哪一類模型？",
+    "answer": "模擬"
+  },
+  {
+    "question": "何時會在使用者信息中出現類別？",
+    "answer": "註冊階段"
+  },
+  {
+    "question": "Reddit熱門公式的基礎是什麼？",
+    "answer": "對數"
+  },
+  {
+    "question": "生成代理具有的功能是什麼？",
+    "answer": "角色扮演"
+  },
+  {
+    "question": "OASIS被設計來研究什麼？",
+    "answer": "群體現象"
+  },
+  {
+    "question": "系統模型使用的基本算法是什麼？",
+    "answer": "異步機制"
+  },
+  {
+    "question": "Reddit推薦系統中，新的帖子排序基於什麼？",
+    "answer": "熱門分數"
+  },
+  {
+    "question": "D3推薦演算法基於哪三個維度？",
+    "answer": "R, F, S"
+  },
+  {
+    "question": "模擬多久更新一次環境狀態？",
+    "answer": "實時"
+  },
+  {
+    "question": "每個代理的種子數量是多少？",
+    "answer": "1000"
+  },
+  {
+    "question": "當系統在暫停時允許的唯一行為是什麼？",
+    "answer": "不做任何操作"
+  },
+  {
+    "question": "OASIS中用於推薦的模型是什麼？",
+    "answer": "TwHIN-BERT"
+  },
+  {
+    "question": "API調用時間每秒可以處理多少次？",
+    "answer": "600"
+  },
+  {
+    "question": "Reddit中的熱門分數如何影響內容推薦？",
+    "answer": "高分優先"
+  },
+  {
+    "question": "使用TwHIN-BERT的最大用戶數量是多少？",
+    "answer": "1百萬"
+  },
+  {
+    "question": "Reddit的分數由哪些因素組成？",
+    "answer": "點贊和不喜歡"
+  },
+  {
+    "question": "當評論更具爭議性時，Reddit是否優先?",
+    "answer": "不"
+  },
+  {
+    "question": "Reddit的推薦系統使用什麼作為內容評估基礎？",
+    "answer": "熱門分數"
+  },
+  {
+    "question": "OASIS的環境伺服器可以註冊多少用戶？",
+    "answer": "無限制"
+  }
+]

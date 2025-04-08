@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Agent S2的作者有多少人？",
+    "answer": "六人"
+  },
+  {
+    "question": "Agent S2在哪个平台上超越了最好的方法？",
+    "answer": "WindowsAgentArena"
+  },
+  {
+    "question": "Agent S2使用的主要输入是什么？",
+    "answer": "截图"
+  },
+  {
+    "question": "Agent S2实现了什么类型的规划？",
+    "answer": "主动式规划"
+  },
+  {
+    "question": "Agent S2的OSWorld成功率是多少？",
+    "answer": "27.0%"
+  },
+  {
+    "question": "Agent S新版本的相对提升是多少？",
+    "answer": "58.1%"
+  },
+  {
+    "question": "Agent S2在哪个环境下测试了116个任务？",
+    "answer": "AndroidWorld"
+  },
+  {
+    "question": "Agent S2的视觉定位专家的关键功能是什么？",
+    "answer": "生成精确坐标"
+  },
+  {
+    "question": "Agent S2在哪个领域有52.8%的改进？",
+    "answer": "WindowsAgentArena"
+  },
+  {
+    "question": "Claude-3.5-Sonnet在哪个类别表现更好？",
+    "answer": "Office"
+  },
+  {
+    "question": "什么意思是POMDP？",
+    "answer": "部分可观察马尔科夫决策过程"
+  },
+  {
+    "question": "Agent S2使用了哪种OCR工具？",
+    "answer": "Tesseract OCR"
+  },
+  {
+    "question": "Agent S2在AndroidWorld的成功率是多少？",
+    "answer": "54.3%"
+  },
+  {
+    "question": "Agent S2如何调整子目标？",
+    "answer": "动态重规划"
+  },
+  {
+    "question": "Agent S2在哪个应用程序中进行了文本定位示例？",
+    "answer": "LibreOffice Writer"
+  },
+  {
+    "question": "Agent S2的总体成功率趋势是怎样的？",
+    "answer": "上升"
+  },
+  {
+    "question": "Agent S2的文本定位专家使用了哪种方法？",
+    "answer": "OCR"
+  },
+  {
+    "question": "Agent S2的桌面行动空间有几种操作？",
+    "answer": "14种"
+  },
+  {
+    "question": "Agent S2的实验设置中使用了什么规模的数据集？",
+    "answer": "369个任务"
+  },
+  {
+    "question": "Agent S2在哪个任务中展示了主动规划？",
+    "answer": "屏幕亮度设置"
+  },
+  {
+    "question": "Agent S2在哪个测试集中只使用截图？",
+    "answer": "WindowsAgentArena"
+  },
+  {
+    "question": "Agent S2在什么类型的任务中使用Mixture of Grounding？",
+    "answer": "UI元素定位"
+  },
+  {
+    "question": "Agent S2的结构化定位专家处理哪类数据？",
+    "answer": "表格数据"
+  },
+  {
+    "question": "什么是Claude Computer Use在新方法中的相对提升？",
+    "answer": "29.6%"
+  },
+  {
+    "question": "Agent S2在哪个任务上显示了高水平的适应性？",
+    "answer": "文本编辑"
+  },
+  {
+    "question": "Agent S2在Windows任务中领先了多少百分比？",
+    "answer": "52.8%"
+  },
+  {
+    "question": "Agent S2对比其他方法有何特点？",
+    "answer": "模块化"
+  },
+  {
+    "question": "Agent S2取得成绩的关键技术是什么？",
+    "answer": "Mixture of Grounding"
+  },
+  {
+    "question": "Agent S2如何处理长时间任务中的复杂性？",
+    "answer": "分层规划"
+  },
+  {
+    "question": "评估Agent S2使用了多少个应用程序？",
+    "answer": "20个"
+  },
+  {
+    "question": "Agent S2在哪项测试中刷新了记录？",
+    "answer": "OSWorld"
+  },
+  {
+    "question": "Mixture of Grounding在什么方面起到了作用？",
+    "answer": "精准定位"
+  },
+  {
+    "question": "Agent S2在任务处理时使用了什么策略？",
+    "answer": "重新规划"
+  },
+  {
+    "question": "Claude-3.5-Sonnet以什么策略提供支持？",
+    "answer": "语言模型"
+  },
+  {
+    "question": "Agent S2在哪个环境下进行了实验证明？",
+    "answer": "AndroidWorld"
+  },
+  {
+    "question": "在WindowsAgentArena的测试中涉及了多少个类别？",
+    "answer": "6个"
+  },
+  {
+    "question": "在Agent S2中最重要的视觉定位策略是什么？",
+    "answer": "专家模型"
+  },
+  {
+    "question": "Agent S2如何在研究中支持OS任务？",
+    "answer": "知识库"
+  },
+  {
+    "question": "Agent S2在哪些情况下使用语言描述？",
+    "answer": "定位"
+  },
+  {
+    "question": "Agent S2在处理描述解析时使用的模块是什么？",
+    "answer": "视觉专家"
+  },
+  {
+    "question": "Agent S2如何处理单一模型的局限性？",
+    "answer": "组合模型"
+  },
+  {
+    "question": "Agent S2的错误分析中规划失败的比例是多少？",
+    "answer": "41.0%"
+  },
+  {
+    "question": "在视觉定位中，Agent S2最典型的操作是？",
+    "answer": "点击"
+  },
+  {
+    "question": "Agent S2的Mixture of Grounding增加了多少成功率？",
+    "answer": "4.62%"
+  },
+  {
+    "question": "在哪个任务中Agent S2使用了模块化方法？",
+    "answer": "创建快捷方式"
+  },
+  {
+    "question": "Agent S2如何在任务中自我修正？",
+    "answer": "重新规划"
+  },
+  {
+    "question": "Agent S2通过什么方式实现灵活的规划？",
+    "answer": "视觉描述"
+  },
+  {
+    "question": "Agent S2在任务中最广泛使用的界面是什么？",
+    "answer": "UI"
+  },
+  {
+    "question": "Agent S2在哪个领域展示了显著的可扩展性？",
+    "answer": "跨系统任务"
+  },
+  {
+    "question": "Agent S2的广泛通用性能来源于哪种方法？",
+    "answer": "多模型组合"
+  }
+]

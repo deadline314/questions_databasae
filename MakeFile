@@ -10,11 +10,13 @@ env:
 
 # Generate questions from pdf files
 generate:
-	bash scripts/generate.sh
-# Generate questions from pdf files
+	bash scripts/generate.sh $(args)
 
 generate_one_file:
 	bash scripts/generate_one_file.sh
 
 merge:
 	bash scripts/merge.sh
+
+evaluate:
+	bash scripts/evaluate.sh

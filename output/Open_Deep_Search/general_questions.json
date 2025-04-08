@@ -1,0 +1,194 @@
+[
+  {
+    "question": "What is Open Deep Search (ODS)?",
+    "answer": "ODS is an open-source search framework that augments reasoning capabilities of open-source LLMs with web search tools."
+  },
+  {
+    "question": "Which two main components make up ODS?",
+    "answer": "Open Search Tool and Open Reasoning Agent."
+  },
+  {
+    "question": "What performance does ODS achieve on SimpleQA and FRAMES?",
+    "answer": "88.3% on SimpleQA and 75.3% on FRAMES."
+  },
+  {
+    "question": "What proprietary search AI solutions are mentioned as competitors to ODS?",
+    "answer": "Perplexity's Sonar Reasoning Pro and OpenAI's GPT-4o Search Preview."
+  },
+  {
+    "question": "What is the purpose of the Open Search Tool in ODS?",
+    "answer": "To improve search capabilities and provide high-quality context from web sources."
+  },
+  {
+    "question": "What are the two versions of Open Reasoning Agent in ODS?",
+    "answer": "One based on ReAct agent and another based on CodeAct agent."
+  },
+  {
+    "question": "What is a distinguishing feature of ReAct Framework?",
+    "answer": "Combining reasoning steps with action execution to enhance task completion."
+  },
+  {
+    "question": "How does ODS-v1 improve accuracy on FRAMES?",
+    "answer": "It improves to 56.7% accuracy by using a single web search per query."
+  },
+  {
+    "question": "What does the CodeAct approach involve?",
+    "answer": "Generating and executing code to tackle algorithmic and semantic problems."
+  },
+  {
+    "question": "What is the role of the Llama3.1-70B model in ODS?",
+    "answer": "It serves as a base LLM option for integration into the ODS framework."
+  },
+  {
+    "question": "How does ODS-v2 use web searches compared to FRAMES?",
+    "answer": "It uses fewer searches on SimpleQA and more on FRAMES, showing adaptability."
+  },
+  {
+    "question": "What does the ODS repository provide?",
+    "answer": "Two versions of ODS, the search and reasoning tools, available at a public GitHub repository."
+  },
+  {
+    "question": "What is Chain-of-Thought (CoT) reasoning?",
+    "answer": "A method encouraging models to stop and think before answering to improve reasoning."
+  },
+  {
+    "question": "Which open-source search tools are identified as having room for improvement?",
+    "answer": "OpenPerplex and Perplexica."
+  },
+  {
+    "question": "On SimpleQA, what advantage does ODS have over proprietary solutions?",
+    "answer": "It offers an open-source solution with accuracy close to closed-source search AIs."
+  },
+  {
+    "question": "What is the significance of query rephrasing in Open Search Tool?",
+    "answer": "It bridges gaps between broad queries and the specific context required for accurate answers."
+  },
+  {
+    "question": "What technique further improves simple CoT performance?",
+    "answer": "Chain-of-Thought Self-Consistency."
+  },
+  {
+    "question": "What tools does ReAct Framework integrate?",
+    "answer": "Web Search, Wolfram Alpha API, and Continue Thinking."
+  },
+  {
+    "question": "What benchmarks are used to evaluate ODS?",
+    "answer": "SimpleQA and FRAMES."
+  },
+  {
+    "question": "What milestone does ODS achieve with DeepSeek-R1?",
+    "answer": "It surpasses GPT-4o Search Preview by 10% on the FRAMES benchmark."
+  },
+  {
+    "question": "What innovation is introduced in ODS for search improvement?",
+    "answer": "Augmenting Retrieval-Augmented Generation (RAG) with real-time web information."
+  },
+  {
+    "question": "How does ODS strive for transparency in search AI?",
+    "answer": "By being open-source, encouraging community involvement and research."
+  },
+  {
+    "question": "What is the advantage of using CodeAct agent in ODS?",
+    "answer": "It allows more sophisticated task solving by dynamically composing and executing code."
+  },
+  {
+    "question": "Why is open-source search AI like ODS important?",
+    "answer": "To democratize access, enhance innovation, and mitigate risks associated with proprietary systems."
+  },
+  {
+    "question": "Why use few-shot learning in ReAct?",
+    "answer": "To optimize prompt efficiency and empower models with reasoning through similar examples."
+  },
+  {
+    "question": "How does ODS adapt its search strategy?",
+    "answer": "It bases the number of searches on the initial search quality and the model's output."
+  },
+  {
+    "question": "What are CoT-SC's benefits over naive CoT?",
+    "answer": "It samples multiple pathways for a more consistent and accurate answer."
+  },
+  {
+    "question": "How does ODS contribute to the growth of search AI?",
+    "answer": "By fostering a community of developers and encouraging open-source innovation."
+  },
+  {
+    "question": "What is the performance of ODS-v1+DeepSeek-R1 on SimpleQA?",
+    "answer": "It achieves an accuracy of 87.7%."
+  },
+  {
+    "question": "What is the main benefit of the open-source nature of ODS?",
+    "answer": "The ability to integrate any user-chosen LLM and expand upon existing tools."
+  },
+  {
+    "question": "What type of tool integration does ReAct Framework allow?",
+    "answer": "Standardized interface integration for tools like search and calculators."
+  },
+  {
+    "question": "In the context of ODS, what does 'CodeAct' refer to?",
+    "answer": "A framework for adaptive tuning of code-focused reasoning models."
+  },
+  {
+    "question": "What challenges do traditional CoT methods face?",
+    "answer": "They struggle with precise numeric or symbolic computations."
+  },
+  {
+    "question": "Why are self-consistency and multi-path sampling important?",
+    "answer": "They improve the robustness of reasoning tasks by cross-verifying multiple responses."
+  },
+  {
+    "question": "How does the Open Reasoning Agent contribute to ODS performance?",
+    "answer": "By interpreting queries, assessing context, and using tools to provide accurate answers."
+  },
+  {
+    "question": "How does ODS-v2 performance compare with GPT-4o Search?",
+    "answer": "It surpasses GPT-4o Search Preview in FRAMES accuracy."
+  },
+  {
+    "question": "What gap does ODS aim to close?",
+    "answer": "Between open-source and closed-source search AI solutions."
+  },
+  {
+    "question": "What makes ODS-v2 unique in handling search tasks?",
+    "answer": "It uses the SmolAgents framework for customizable and distributable search solutions."
+  },
+  {
+    "question": "What is the historical context of 'Chain-of-Thought' prompting?",
+    "answer": "Eliciting reasoning in LLM agents for more accurate responses."
+  },
+  {
+    "question": "How does the Open Search Tool augment conventional methods?",
+    "answer": "By rephrasing queries, retrieving top snippets, and refining content for relevance."
+  },
+  {
+    "question": "What AI concept underlies ODS's architecture?",
+    "answer": "Search engine-augmented Retrieval-Augmented Generation (RAG)."
+  },
+  {
+    "question": "How does ODS v2 leverage DeepSeek-R1?",
+    "answer": "It achieves state-of-the-art performance by using DeepSeek-R1 with search capabilities."
+  },
+  {
+    "question": "What is emphasized by the ODS community campaign?",
+    "answer": "Improving ReAct prompts by harnessing diverse reasoning intuitions."
+  },
+  {
+    "question": "What kind of reasoning does ODS-v1 use?",
+    "answer": "Chain-of-thought reasoning with task-oriented steps."
+  },
+  {
+    "question": "What functionality does ODS provide for developers?",
+    "answer": "A plug-and-play framework with customizable LLM integration for search and reasoning."
+  },
+  {
+    "question": "Which dataset is used for multi-hop question evaluation?",
+    "answer": "The FRAMES (Factuality, Retrieval, And reasoning MEasurement Set) dataset."
+  },
+  {
+    "question": "Why is ODS designed as an open-source solution?",
+    "answer": "To foster transparency and community-driven advancements in search AI."
+  },
+  {
+    "question": "What does sophisticated task completion involve in ReAct?",
+    "answer": "Interleaving reasoning and actions to enhance decision-making and reliability."
+  }
+]

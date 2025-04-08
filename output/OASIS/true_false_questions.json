@@ -1,0 +1,202 @@
+[
+  {
+    "question": "OASIS能模擬多個平台上的社會現象嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS只能用於研究單一平台。",
+    "answer": "否"
+  },
+  {
+    "question": "TwHIN-BERT僅支持單一語言的預訓練。",
+    "answer": "否"
+  },
+  {
+    "question": "Reddit的熱門分數包含點贊數據。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS的設計是基於現實社交媒體平台。",
+    "answer": "是"
+  },
+  {
+    "question": "代理只能在每天的某個小時啟動。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS能模擬群體極化現象。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS的模擬僅限於少量用戶。",
+    "answer": "否"
+  },
+  {
+    "question": "代理可以根據興趣選擇帖子。",
+    "answer": "是"
+  },
+  {
+    "question": "Reddit推薦系統使用隨機排名。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS不支持動態更新用戶關係。",
+    "answer": "否"
+  },
+  {
+    "question": "代理行為是不定時的。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS使用的數據庫是關聯型數據庫。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS可以處理即時的互動。",
+    "answer": "是"
+  },
+  {
+    "question": "Reddit的熱門分數越高越好。",
+    "answer": "是"
+  },
+  {
+    "question": "在OASIS中，所有代理同時啟動。",
+    "answer": "否"
+  },
+  {
+    "question": "代理可以選擇不進行任何操作。",
+    "answer": "是"
+  },
+  {
+    "question": "TwHIN-BERT在少於100種語言上訓練。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS的時間步長是靜態的。",
+    "answer": "否"
+  },
+  {
+    "question": "所有OASIS的代理都在實時更新。",
+    "answer": "是"
+  },
+  {
+    "question": "推薦系統僅僅基於使用者的興趣。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS的模擬結果與現實高度一致。",
+    "answer": "是"
+  },
+  {
+    "question": "Reddit的推薦能自動過濾所有敏感內容。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS的環境伺服器能實時更新內容。",
+    "answer": "是"
+  },
+  {
+    "question": "代理可以在Reddit中反對評論。",
+    "answer": "是"
+  },
+  {
+    "question": "Reddit的熱門分數不考慮時間因素。",
+    "answer": "否"
+  },
+  {
+    "question": "Reddit能模擬裡只涉及娛樂話題。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS設定中包括深度學習算法。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS僅支援文本互動。",
+    "answer": "是"
+  },
+  {
+    "question": "群體極化僅在大型群體中發生。",
+    "answer": "否"
+  },
+  {
+    "question": "每個LLM代理都有獨特的行為模式。",
+    "answer": "是"
+  },
+  {
+    "question": "代理能夠對他人評論進行點贊。",
+    "answer": "是"
+  },
+  {
+    "question": "擁有多個貼文能增加熱門分數。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS的推薦引擎無法學習使用者行為。",
+    "answer": "否"
+  },
+  {
+    "question": "代理能忽略特定使用者。",
+    "answer": "是"
+  },
+  {
+    "question": "網絡擁有者的權限非常有限。",
+    "answer": "否"
+  },
+  {
+    "question": "信息傳播模擬中的不確定性很大。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS支持的行動類型有限。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS可用於模擬金融市場。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS的平臺設置可以動態調整。",
+    "answer": "是"
+  },
+  {
+    "question": "Reddit的推薦系統完全是自動的。",
+    "answer": "是"
+  },
+  {
+    "question": "伺服器無法儲存用戶歷史行為。",
+    "answer": "否"
+  },
+  {
+    "question": "代理可以在Reddit中創建評論。",
+    "answer": "是"
+  },
+  {
+    "question": "OASIS僅用於學術研究。",
+    "answer": "否"
+  },
+  {
+    "question": "代理的行為基於現有的數據。",
+    "answer": "是"
+  },
+  {
+    "question": "TwHIN-BERT不支援多語言模型。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS可以增加用戶參與度。",
+    "answer": "是"
+  },
+  {
+    "question": "紐帶效果只影響大型平台。",
+    "answer": "否"
+  },
+  {
+    "question": "OASIS模擬中不考慮時間因素。",
+    "answer": "否"
+  },
+  {
+    "question": "所有的OASIS代理同時退出。",
+    "answer": "否"
+  }
+]

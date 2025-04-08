@@ -1,0 +1,194 @@
+[
+  {
+    "question": "ODS是開源框架嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DeepSeek-R1是閉源模型嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "CodeAct代理用於ODS-v2嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS-v1使用了機器學習嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "FRAMES是單跳任務的基準嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "在SimpleQA基準上ODS表現超過90%嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ODS可以用於任何類型的LLM嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Wolfram Alpha用於推理前塵埃估計嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "目前的開源工具超過了Perplexity嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ReAct可以進行零次拍攝學習嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "CodeAct是基於JSON的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Llama3.1-70B是閉源模型嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "CoT方法在運算上有挑戰嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS會自動選擇搜索次數嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "開放式推理代理基於鏈式導航嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS在2000年推出嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DeepSeek-R1在SimpleQA上比FRAMES表現更好嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "CodeAct是用於處理簡單數據集嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ReAct框架由三個組件組成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "COD-v2優於Perplexity Sonar嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "SimpleQA專門用於測試網頁查詢嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "FRAMES是開源的嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ODS能兼容多種模型嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "RAG方法是靜態數據優化嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "多路徑採樣提高了普通CoT的性能嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "開源代碼可以免費使用嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS是專有解決方案嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ReAct框架允許外部工具集成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "開源框架限制創新嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "Chain-of-Code超出了傳統CoT方法嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "CodeAct在Web搜索中捕捉上下文嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ReAct框架僅用於文本生成嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "SimpleQA設計用於復雜推理嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ODS與增強檢索生成方法協作嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "開放搜尋工具能處理多語言查詢嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "開源工具總是慢於閉源解決方案嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "深度搜索利用了多個開源資源嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ReAct代理使用隨機推理嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "CodeAct要求Python解釋器嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "多步驟、多搜索方法有效率嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "ODS可以提升模型的推理能力嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS僅限於基於搜尋的LMM嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "每個開源LLM都可以與ODS集成嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "Chain-of-Thought只能應用於數學任務嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "工具集成需要標準化接口嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "DeepSeek-R1提升了Llama3.1-70B的表現嗎？",
+    "answer": "是"
+  },
+  {
+    "question": "在DeepSeek-R1中，工具集成無需進一步開發嗎？",
+    "answer": "否"
+  },
+  {
+    "question": "DeepSeek-R1與開放搜尋工具搭配使用嗎？",
+    "answer": "是"
+  }
+]

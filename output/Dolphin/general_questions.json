@@ -1,0 +1,198 @@
+[
+  {
+    "question": "Dolphin模型是為哪些語言設計的？",
+    "answer": "Dolphin模型專為40種東部語言設計。"
+  },
+  {
+    "question": "Dolphin模型支援多少種中國方言？",
+    "answer": "Dolphin模型支援22種中國方言。"
+  },
+  {
+    "question": "Whisper模型的主要限制是什麼？",
+    "answer": "Whisper模型的主要限制是跨語言效能差異和重現性問題。"
+  },
+  {
+    "question": "Dolphin和Whisper模型相比在東部語言上有什麼優勢？",
+    "answer": "Dolphin在東部語言上的識別準確性與其在西部語言上的表現相當，縮小了效能差距。"
+  },
+  {
+    "question": "Dolphin模型使用了哪些型別的資料集？",
+    "answer": "Dolphin模型使用了內部專有資料和公開資料集。"
+  },
+  {
+    "question": "Dolphin的訓練資料包含多少小時的音訊？",
+    "answer": "Dolphin的訓練資料包含超過200,000小時的音訊。"
+  },
+  {
+    "question": "Whisper模型和Dolphin的位元組對編碼詞彙量分別是多少？",
+    "answer": "Whisper的詞彙量是52k，Dolphin是40k。"
+  },
+  {
+    "question": "Dolphin模型在測試集上的平均WER是多少？",
+    "answer": "Dolphin模型在測試集上的平均WER為21.6%。"
+  },
+  {
+    "question": "哪個模型在多國語言資料集上的效能更好，Whisper還是Dolphin？",
+    "answer": "在多國語言資料集上，Dolphin模型的效能優於Whisper。"
+  },
+  {
+    "question": "Dolphin模型中使用了什麼樣的編碼器結構？",
+    "answer": "Dolphin模型中使用了E-Branchformer編碼器。"
+  },
+  {
+    "question": "在Dolphin的多工格式中引入了什麼機制來處理語言和地區的多樣性？",
+    "answer": "Dolphin引入了兩個級別的語言標記系統來處理語言和地區的多樣性。"
+  },
+  {
+    "question": "Dolphin模型與Whisper模型相比在大型語言模型上的表現如何？",
+    "answer": "Dolphin的base模型表現優於Whisper的large-v3模型。"
+  },
+  {
+    "question": "Dolphin模型支援的語言數量是多少？",
+    "answer": "Dolphin模型支援100種語言。"
+  },
+  {
+    "question": "Dolphin模型是否支援翻譯任務？",
+    "answer": "Dolphin模型不支援翻譯任務。"
+  },
+  {
+    "question": "第二級語言標記包括哪些資訊？",
+    "answer": "第二級語言標記包括語言和區域識別符號。"
+  },
+  {
+    "question": "什麼是Dolphin模型的顯著特點之一？",
+    "answer": "Dolphin模型顯著提高了東部語言的識別準確性。"
+  },
+  {
+    "question": "Dolphin模型與Whisper模型在東部語言上的WER減少了多少？",
+    "answer": "Dolphin模型在東部語言上的WER相比Whisper減少了約63%到68%。"
+  },
+  {
+    "question": "哪個開源資料集包含29種語言的733小時資料？",
+    "answer": "CommonVoice包含29種語言的733小時資料。"
+  },
+  {
+    "question": "Dolphin在縮小東部和西部語言效能差距方面有什麼舉措？",
+    "answer": "Dolphin透過結合內部資料和公開資料集來縮小東部和西部語言的效能差距。"
+  },
+  {
+    "question": "在處理大型多語言資料集時，Dolphin使用了什麼策略來提高訓練效率？",
+    "answer": "Dolphin透過邏輯合併音訊片段來提高訓練效率。"
+  },
+  {
+    "question": "在中國方言測試集上，Dolphin的最佳CER是多少？",
+    "answer": "在中國方言測試集上，Dolphin的最佳CER為9.23%。"
+  },
+  {
+    "question": "論文中提到的兩個關鍵挑戰是什麼？",
+    "answer": "論文中提到的兩個關鍵挑戰是Whisper模型的重現性問題和跨語言效能差異。"
+  },
+  {
+    "question": "Dolphin模型在實驗中的WER是多少？",
+    "answer": "Dolphin模型在實驗中的WER平均為21.6%。"
+  },
+  {
+    "question": "實驗中Dolphin模型在Dataocean AI, Fleurs和CommonVoice測試集上的表現如何？",
+    "answer": "在Dataocean AI, Fleurs和CommonVoice測試集上，Dolphin的表現明顯優於Whisper。"
+  },
+  {
+    "question": "Dolphin和Whisper的最佳化器分別是什麼？",
+    "answer": "Dolphin和Whisper模型都使用AdamW最佳化器。"
+  },
+  {
+    "question": "Dolphin的網路架構有什麼特點？",
+    "answer": "Dolphin的網路架構包括E-Branchformer編碼器和Transformer解碼器。"
+  },
+  {
+    "question": "關於Whisper和Dolphin的引數比較，Dolphin模型的引數如何？",
+    "answer": "在相同的大小下，Dolphin的引數比Whisper稍多。"
+  },
+  {
+    "question": "什麼是Dolphin模型在開發中的重要步驟之一？",
+    "answer": "為東部語言構建和最佳化內部資料集是Dolphin模型開發中的重要步驟。"
+  },
+  {
+    "question": "Dolphin和Whisper都使用了哪個損失權重？",
+    "answer": "Dolphin和Whisper都使用了0.3的CTC損失權重。"
+  },
+  {
+    "question": "Dolphin和Whisper模型的Time Shift是多少？",
+    "answer": "Whisper的Time Shift為20ms，Dolphin為40ms。"
+  },
+  {
+    "question": "Dolphin和Whisper的學習率調整策略是什麼？",
+    "answer": "Dolphin和Whisper的學習率使用線性預熱和指數衰減策略。"
+  },
+  {
+    "question": "Dolphin是否公開發布了推理程式碼？",
+    "answer": "是的，Dolphin公開發布了推理程式碼。"
+  },
+  {
+    "question": "Dolphin模型主要關注在什麼任務上？",
+    "answer": "Dolphin模型主要關注在自動語音識別（ASR）任務上。"
+  },
+  {
+    "question": "Dolphin模型在什麼條件下顯示了其優勢？",
+    "answer": "在與Whisper模型同引數量級下，Dolphin模型在東部語言上表現優於Whisper。"
+  },
+  {
+    "question": "Dolphin的訓練資料是否包括人工標註的部分？",
+    "answer": "是的，Dolphin的訓練資料包括大量人工標註的資料。"
+  },
+  {
+    "question": "實驗中評估Dolphin模型的裝置是什麼？",
+    "answer": "實驗使用了16個NVIDIA H100 GPU。"
+  },
+  {
+    "question": "Dolphin模型是否在大規模多語言任務上表現良好？",
+    "answer": "是的，Dolphin在大規模多語言任務上表現出色。"
+  },
+  {
+    "question": "什麼是Dolphin模型推廣其效率和效能的關鍵？",
+    "answer": "採用混合CTC-注意力機制是Dolphin效能提升的關鍵。"
+  },
+  {
+    "question": "哪些資料集有助於Dolphin模型的多語言覆蓋？",
+    "answer": "如CommonVoice、YODAS、GigaSpeech、WenetSpeech等資料集。"
+  },
+  {
+    "question": "Dolphin模型的主要特性是什麼？",
+    "answer": "提高了東部語言的識別準確性，縮小了與Whisper在西部語言上的差距。"
+  },
+  {
+    "question": "哪個開源資料集包含1000+小時的普通話語音資料？",
+    "answer": "WenetSpeech包含10000+小時的普通話語音資料。"
+  },
+  {
+    "question": "在實驗測試中，內容決定增加了插入錯誤，這一問題是如何解決的？",
+    "answer": "透過將音訊片段邏輯合併為較長段落，Dolphin減少了插入錯誤。"
+  },
+  {
+    "question": "東部語言資料集中包含幾種主要語言？",
+    "answer": "東部語言資料集中包含40種主要語言。"
+  },
+  {
+    "question": "Dolphin模型改進了哪方面的效能？",
+    "answer": "改進了多語言和多工ASR效能。"
+  },
+  {
+    "question": "Dolphin模型的研究為什麼重要？",
+    "answer": "它有效縮小了東部和西部語言ASR效能的差距，為多語言研究奠定了基礎。"
+  },
+  {
+    "question": "在Dolphin的訓練資料處理中使用了什麼方法來提高資料質量？",
+    "answer": "使用了資料清理方法，如格式化文字和驗證時間戳準確性。"
+  },
+  {
+    "question": "Dolphin模型在哪些方面實現了顯著的效能提升？",
+    "answer": "在多語言ASR技術中得到了顯著效能提升。"
+  },
+  {
+    "question": "Dolphin模型在小模型和大模型之間的WER區別是多少？",
+    "answer": "小模型和大模型之間的WER相對減少約6.5%。"
+  },
+  {
+    "question": "什麼是多工資料格式的重要性？",
+    "answer": "它允許模型識別口音和方言，以及實現語音識別和語言識別。"
+  }
+]

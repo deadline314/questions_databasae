@@ -1,0 +1,194 @@
+[
+  {
+    "question": "Dolphin模型有多少種模型尺寸？",
+    "answer": "四種"
+  },
+  {
+    "question": "Whisper模型的主要結構是什麼？",
+    "answer": "Transformer"
+  },
+  {
+    "question": "Dolphin的推理代碼是否公開？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper和Dolphin的attention heads數量一樣嗎？",
+    "answer": "一樣"
+  },
+  {
+    "question": "Dolphin專注於哪些語言？",
+    "answer": "東部語言"
+  },
+  {
+    "question": "Whisper支持多少種語言？",
+    "answer": "99種"
+  },
+  {
+    "question": "Dolphin的訓練批次大小是多少？",
+    "answer": "1024"
+  },
+  {
+    "question": "Dolphin的warmup更新次數是多少？",
+    "answer": "2k"
+  },
+  {
+    "question": "Dolphin的CTC權重是多少？",
+    "answer": "0.3"
+  },
+  {
+    "question": "Dolphin模型使用了哪種優化器？",
+    "answer": "AdamW"
+  },
+  {
+    "question": "Dolphin的小模型比基礎模型大多少倍？",
+    "answer": "2.7倍"
+  },
+  {
+    "question": "Whisper有幾個中文方言？",
+    "answer": "未知"
+  },
+  {
+    "question": "Dolphin的隱藏層大小是什麼？",
+    "answer": "512至1280"
+  },
+  {
+    "question": "Whisper和Dolphin的encoder架構是否相同？",
+    "answer": "不同"
+  },
+  {
+    "question": "Dolphin中轉換器層有幾層？",
+    "answer": "6到20層"
+  },
+  {
+    "question": "Dolphin的基礎模型WER是多少？",
+    "answer": "33.3%"
+  },
+  {
+    "question": "Whisper large-v3的WER是多少？",
+    "answer": "52.3%"
+  },
+  {
+    "question": "Dolphin是否支持聲音活動檢測？",
+    "answer": "支持"
+  },
+  {
+    "question": "Whisper模型的大模型有多少參數？",
+    "answer": "1550M"
+  },
+  {
+    "question": "Dolphin模型的大小範圍是多少？",
+    "answer": "140M至1679M"
+  },
+  {
+    "question": "Dolphin的小模型比普通模型提升了多少%的WER？",
+    "answer": "24.5%"
+  },
+  {
+    "question": "Dolphin是否在語言識別中包含地區標記？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin是否在訓練中使用了SpecAugment？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的更大模型是否提高了性能？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin使用了什麼樣的架構？",
+    "answer": "CTC-Attention"
+  },
+  {
+    "question": "Dolphin大模型與Whisper大模型參數量是否相同？",
+    "answer": "不完全相同"
+  },
+  {
+    "question": "Dolphin的多任務格式主要不支持什麼？",
+    "answer": "翻譯"
+  },
+  {
+    "question": "Dolphin能否在實驗中縮小語言性能差距？",
+    "answer": "能"
+  },
+  {
+    "question": "Dolphin的數據處理是否包括時間戳檢查？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin的參數與Whisper的參數比起來如何？",
+    "answer": "更多"
+  },
+  {
+    "question": "Dolphin是否可以用於語音識別？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin支援的語言數量是Whisper的一倍嗎？",
+    "answer": "不是"
+  },
+  {
+    "question": "在重詞錯誤率上，Dolphin是否有優勢？",
+    "answer": "有"
+  },
+  {
+    "question": "Dolphin是否能有效區分方言和口音？",
+    "answer": "能"
+  },
+  {
+    "question": "Dolphin的目標市場是什麼？",
+    "answer": "東方市場"
+  },
+  {
+    "question": "Dolphin是否公開了基礎和小型模型？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin和Whisper訓練集大小是否不同？",
+    "answer": "不同"
+  },
+  {
+    "question": "Whisper大模型能否全複製？",
+    "answer": "否"
+  },
+  {
+    "question": "Whisper的系統挑戰是什麼？",
+    "answer": "重現性"
+  },
+  {
+    "question": "Dolphin是否提供多任務格式？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin訓練所用的GPU數量是？",
+    "answer": "16"
+  },
+  {
+    "question": "Dolphin是否適用於真實世界的應用？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper的大模型的WER是多少？",
+    "answer": "57.8%"
+  },
+  {
+    "question": "Dolphin模型的最大層數是多少？",
+    "answer": "20層"
+  },
+  {
+    "question": "Dolphin是否增強了其語言識別能力？",
+    "answer": "是"
+  },
+  {
+    "question": "Whisper和Dolphin使用哪種層次結構？",
+    "answer": "變壓器"
+  },
+  {
+    "question": "Dolphin在發布時是否注重語言覆蓋？",
+    "answer": "是"
+  },
+  {
+    "question": "Dolphin是否能夠實現資源有限語言的語音識別？",
+    "answer": "是"
+  }
+]

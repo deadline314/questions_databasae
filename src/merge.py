@@ -19,24 +19,28 @@ def merge_json_files(root_folder, filename, output_filename):
                     # add new key 'filename' to each data
                     for item in data:
                         item['filename'] = subdir
+                        item['data_type'] = filename.split('.')[0]
                     merged_data.extend(data)
     print(f'{filename} has been merged to {output_filename}')
     # print the data length
     print(f'The length of {filename} is {len(merged_data)}')
     # Save the merged data
-    with open(output_filename, 'w', encoding='utf-8') as f:
-        json.dump(merged_data, f, ensure_ascii=False, indent=2)
-
-    print(f'{filename} has been merged to {output_filename}')
+    return merged_data
 # main
 if __name__ == "__main__":
     root_folder = './output'  # The root folder
-    file_names = ['general_questions.json', 'true_false_questions.json', 'easy_questions.json']
-
+    file_names = ['general_questions.json', 'easy_questions.json', 'true_false_questions.json']
+    merged_data = []
     # Merge each type of file
     for fname in file_names:
         output_file = f'./merged_output/{fname}'  # The merged file name
         if not os.path.exists('./merged_output'):
             os.makedirs('./merged_output')
-        merge_json_files(root_folder, fname, output_file)
+        merged_data.extend(merge_json_files(root_folder, fname, output_file))
+        
         print(f'{fname} has been merged to {output_file}')
+        
+    # make json structure data with question, answer, data_type, filename to data_type, filename, question, answer
+    merged_data = [{'data_type': item['data_type'], 'filename': item['filename'], 'question': item['question'], 'answer': item['answer']} for item in merged_data]
+    with open('./merged_output/all_questions.json', 'w', encoding='utf-8') as f:
+        json.dump(merged_data, f, ensure_ascii=False, indent=2)

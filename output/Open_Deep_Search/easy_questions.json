@@ -1,0 +1,194 @@
+[
+  {
+    "question": "ODS是什麼類型的框架？",
+    "answer": "開源"
+  },
+  {
+    "question": "ODS-v1使用哪種代理？",
+    "answer": "ReAct"
+  },
+  {
+    "question": "ODS-v2使用哪種代理？",
+    "answer": "CodeAct"
+  },
+  {
+    "question": "ODS在哪個基準上達到75.3%精確度？",
+    "answer": "FRAMES"
+  },
+  {
+    "question": "GPT-4o Search Preview的釋出日期是哪天？",
+    "answer": "2025年3月11日"
+  },
+  {
+    "question": "ODS與哪個模型合作提高性能？",
+    "answer": "DeepSeek-R1"
+  },
+  {
+    "question": "SimpleQA是一個什麼類型的數據集？",
+    "answer": "評估"
+  },
+  {
+    "question": "哪個工具提供面積運算支持？",
+    "answer": "Wolfram Alpha"
+  },
+  {
+    "question": "FRAMES數據集中問題的特點是什麼？",
+    "answer": "多跳挑戰"
+  },
+  {
+    "question": "ODS的兩個組件是什麼？",
+    "answer": "搜尋工具和推理代理"
+  },
+  {
+    "question": "在ODS中，哪個工具有判斷力地運用網頁搜尋？",
+    "answer": "開放搜尋工具"
+  },
+  {
+    "question": "在這次研究中，ODS使用哪兩個基準進行測試？",
+    "answer": "SimpleQA和FRAMES"
+  },
+  {
+    "question": "哪一個基準主要用來測試無法瀏覽網頁情境下的事實性？",
+    "answer": "SimpleQA"
+  },
+  {
+    "question": "ODS框架支持哪種類型的模型？",
+    "answer": "開源和閉源"
+  },
+  {
+    "question": "ODS的主要創新是什麼？",
+    "answer": "增強推理能力"
+  },
+  {
+    "question": "ODS比GPT-4o Search Preview在FRAMES上提升了多少%精度？",
+    "answer": "10%"
+  },
+  {
+    "question": "哪一個工具可以排除不相關的搜尋內容？",
+    "answer": "開放搜尋工具"
+  },
+  {
+    "question": "ODS-v1的最可能使用行動是什麼？",
+    "answer": "繼續思考"
+  },
+  {
+    "question": "DeepSeek-R1在ODS中是否為開源模型？",
+    "answer": "是"
+  },
+  {
+    "question": "ODS是由幾個大學和研究機構合作開發的？",
+    "answer": "三"
+  },
+  {
+    "question": "ODS中，哪個工具從檢索的網頁中获得高質量上下文？",
+    "answer": "開放搜尋工具"
+  },
+  {
+    "question": "在多跳問題中，ODS使用幾次搜尋來提高準確性？",
+    "answer": "3.39次"
+  },
+  {
+    "question": "ODS-v1對深度計算結果的支持是通過哪種API？",
+    "answer": "Wolfram Alpha"
+  },
+  {
+    "question": "哪個搜索AI超越了Perplexity的性能基準？",
+    "answer": "ODS"
+  },
+  {
+    "question": "ODS中哪個版本使用了最先進的學習獎勵系統進行推理？",
+    "answer": "DeepSeek-R1"
+  },
+  {
+    "question": "在ODS中，哪種類型的搜索引擎增強技術被利用？",
+    "answer": "RAG"
+  },
+  {
+    "question": "ODS引入了哪兩種Chain-based技術？",
+    "answer": "Chain-of-Thought和Chain-of-Code"
+  },
+  {
+    "question": "最接近於電話發明的是哪些事件中之一？",
+    "answer": "美國內戰"
+  },
+  {
+    "question": "美國總統在非連續任期中服務過的是誰？",
+    "answer": "克利夫蘭"
+  },
+  {
+    "question": "哪個行星是太陽系中最大的？",
+    "answer": "木星"
+  },
+  {
+    "question": "誰發現了DNA的結構？",
+    "answer": "Watson和Crick"
+  },
+  {
+    "question": "舊金山探索所的開發年份是多少？",
+    "answer": "1953"
+  },
+  {
+    "question": "哈姆雷特內的台詞「to be, or not to be」是由誰說的？",
+    "answer": "哈姆雷特"
+  },
+  {
+    "question": "哪個小說首次介紹了「老大哥」這個概念？",
+    "answer": "1984"
+  },
+  {
+    "question": "網球大滿貫冠軍最多的是誰？",
+    "answer": "Novak Djokovic"
+  },
+  {
+    "question": "袓克里夫是哪個行星的最大直徑？",
+    "answer": "木星"
+  },
+  {
+    "question": "誰是現代奧運會的創立者？",
+    "answer": "Coubertin"
+  },
+  {
+    "question": "是哪位美術家創作了《蒙娜麗莎》？",
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "人類首個登陸月球的年份是？",
+    "answer": "1969"
+  },
+  {
+    "question": "哪個流行病在14世紀襲擊歐洲？",
+    "answer": "黑死病"
+  },
+  {
+    "question": "什麼是Morah Wilson桉件中的正確日期？",
+    "answer": "2022年7月21日"
+  },
+  {
+    "question": "在AWS Simple Storage Service中，縮寫S3是什麼？",
+    "answer": "存儲"
+  },
+  {
+    "question": "星巴克在何時引入了果汁混合的Frappuccino？",
+    "answer": "2006年"
+  },
+  {
+    "question": "日本的最高山是什麼？",
+    "answer": "富士山"
+  },
+  {
+    "question": "哪個Shakespeare的劇作包含「All the world's a stage」？",
+    "answer": "As You Like It"
+  },
+  {
+    "question": "哪個國家擁有最多的奧運金牌？",
+    "answer": "美國"
+  },
+  {
+    "question": "誰在2010年獲得IEEE Frank Rosenblatt Award？",
+    "answer": "Sugeno"
+  },
+  {
+    "question": "誰發明了燈泡並創建了通用電氣公司？",
+    "answer": "Edison"
+  }
+]

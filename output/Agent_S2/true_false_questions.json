@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Agent S2能在任何操作系统上使用吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Mixture of Grounding专注于单一的专家模型吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2可以动态调整规划以适应环境变化吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2的定位专家只能识别文本吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2的成功率在所有评估中都超过了40%吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Proactive Hierarchical Planning允许在任务失败后更新计划吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2在处理UI任务时只依赖OCR技术吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2的成功在于其模块化的框架设计吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2会在完成每一个子目标后重新规划吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在某些任务中使用了Tesseract OCR工具吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Manager M是负责生成低级别动作的模块吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2完全依赖图形化用户界面进行交互吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Mixture of Grounding能减轻视觉定位的认知负担吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2使用脚本而不是截图作为输入吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2只建议在完成整个任务后进行计划更新吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2的计划更新基于每步的新观察吗？",
+    "answer": "是"
+  },
+  {
+    "question": "视觉定位专家能够生成高级别元素的坐标吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2在50步评估中表现优于所有基线代理吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2的视觉专家只能定位静态元素吗？",
+    "answer": "否"
+  },
+  {
+    "question": "结构化定位专家只能处理单个单元格吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2只在Android系统上表现出色吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2使用多种专家模型来优化任务表现吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在某些任务中交替使用视觉专家吗？",
+    "answer": "是"
+  },
+  {
+    "question": "一般来说，Agent S2不能执行复杂任务吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2在所有任务中都完美无故障吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2的视觉专家需要配合描述来生成坐标吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2依赖多个阶段的任务规划吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2的错误分析表明规划是主要瓶颈吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2的技术完全集合了领域模型的优点吗？",
+    "answer": "是"
+  },
+  {
+    "question": "文本定位专家的主要工具是OCR吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2采取了规范化的行动空间吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在任务中只展示了单一模式的交互吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Mixture of Grounding在OSWorld中的作用有限吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2的视觉专家不能用于动态交互吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2计划使用的更新是被动的吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Mixture of Grounding只在文本任务中发挥作用吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2在所有评估中都使用OpenAI的技术吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2可以处理包括文本、表格的复杂UI任务吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2只在任务结束后进行观察更新吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2能够在大量应用程序上推广吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2能通过环境变化适当调整其计划吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Mixture of Grounding可以用于减少定位错误吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在所有环境下都达到相同的成功率吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Proactive Planning能在任务完成后提供更新吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在使用中曾依赖过Accessibility Trees吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2采用集成模型来提升成功率吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Agent S2在高负载任务中表现不佳吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2在所有任务中都使用视觉描述来定位吗？",
+    "answer": "是"
+  },
+  {
+    "question": "Mixture of Grounding在高速任务中无用吗？",
+    "answer": "否"
+  },
+  {
+    "question": "Agent S2适用于所有图形化用户界面规划吗？",
+    "answer": "是"
+  }
+]
