@@ -55,4 +55,4 @@ By incorporating a variety of question types, I aim to:
 ## Future Enhancements
 
 - [x] **Automated Dataset Generator:** Can automatly generate the three kinds of dataset from pdf file, and merge them into one dataset.
-- [ ] **Automated Evaluation Metrics:** Explore the use of automated scoring systems to assess the accuracy and relevance of generated responses.
+- [x] **Automated Evaluation Metrics:** Explore the use of automated scoring systems to assess the accuracy and relevance of generated responses.

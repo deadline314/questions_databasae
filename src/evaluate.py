@@ -1,10 +1,20 @@
 import os
 import json
 import base64
-from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
+import sys
+from inference_model import inference_model_claude37, inference_model_claude35, inference_model_chatgpt_4o
+from file_processing import split_pdf_to_bytes
 
+AWS_REGION_NAME = os.environ.get("AWS_REGION_NAME", "us-west-2")
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID_TEST", "")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY_TEST", "")
+AZURE_OPENAI_API_KEY = os.environ.get("AZURE_OPENAI_API_KEY_TEST", "")
+AZURE_API_BASE = os.environ.get("AZURE_API_BASE_TEST", "")
+OPENAI_API_VERSION = os.environ.get("OPENAI_API_VERSION", "2024-07-01-preview") 
+DEFAULT_CLAUDE = os.environ.get(
+    "DEFAULT_CLAUDE", "anthropic.claude-3-5-sonnet-20241022-v2:0")
 
 # Load and parse the dataset from a JSON file
 def extract_questions_and_answers(dataset_dir):
@@ -18,152 +28,79 @@ def extract_questions_and_answers(dataset_dir):
             filenames.append(item['filename'])
     return questions, answers, data_types, filenames
 
+def inference_model(model_name, question, file_base64):
+    if model_name == 'gpt-4o':
+        return inference_model_chatgpt_4o(question, file_base64)
+    elif model_name == 'claude35':
+        return inference_model_claude35(question, file_base64)
+    elif model_name == 'claude37':
+        return inference_model_claude37(question, file_base64)
+
 # Evaluate true/false questions using OpenAI API
-def evaluate_true_false_questions(question):
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+def evaluate_true_false_questions(question, model_name):
     filename = question['filename']
-    with open(f'./pdf/{filename}.pdf', 'rb') as f:
-        pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    if model_name == 'gpt-4o':
+        with open(f'./pdf/{filename}.pdf', 'rb') as f:
+            pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    else:
+        # Check file size > 4.5mb
+        if os.path.getsize(f'./pdf/{filename}.pdf') > 4.5 * 1024 * 1024:
+            base64_outputs = split_pdf_to_bytes(f'./pdf/{filename}.pdf')
+            pdf_base64 = base64_outputs
+        else:
+            with open(f'./pdf/{filename}.pdf', 'rb') as f:
+                pdf_base64 = [f.read()]
 
-    
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "input_text",
-                    "text": f"根據pdf文件，請回應問題的答案，並只要回答'是'或'否'就好。\n問題: {question['question']}"
-                },
-                {
-                    "type": "input_file",
-                    "filename": filename,
-                    "file_data": f"data:application/pdf;base64,{pdf_base64}",
-                }
-            ]
-        }
-    ]
-
-    response = client.responses.create(
-                model="gpt-4o",
-                input=messages,
-                temperature=1,
-                max_output_tokens=16,
-                top_p=1
-                )
-    return response.output_text.strip() == question['answer']
+    except_answer = question['answer']
+    prompt = f"根據pdf文件，請回應問題的答案，並只要回答'是'或'否'就好。\n問題: {question['question']}"
+    predict_answer = inference_model(model_name, prompt, pdf_base64)
+    return predict_answer == except_answer
 
 # Evaluate general open-ended questions
-def evaluate_general_questions(question):
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+def evaluate_general_questions(question, model_name):
     filename = question['filename']
-    with open(f'./pdf/{filename}.pdf', 'rb') as f:
-        pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    if model_name == 'gpt-4o':
+        with open(f'./pdf/{filename}.pdf', 'rb') as f:
+            pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    else:
+        # Check file size > 4.5mb
+        if os.path.getsize(f'./pdf/{filename}.pdf') > 4.5 * 1024 * 1024:
+            base64_outputs = split_pdf_to_bytes(f'./pdf/{filename}.pdf')
+            pdf_base64 = base64_outputs
+        else:
+            with open(f'./pdf/{filename}.pdf', 'rb') as f:
+                pdf_base64 = [f.read()]
 
     except_answer = question['answer']
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "input_text",
-                    "text": f"請根據pdf文件，簡短的回答問題\nQuestion: {question['question']}"
-                },
-                {
-                    "type": "input_file",
-                    "filename": filename,
-                    "file_data": f"data:application/pdf;base64,{pdf_base64}",
-                }
-            ]
-        }
-    ]
-    response = client.responses.create(
-                model="gpt-4o",
-                input=messages,
-                temperature=1,
-                max_output_tokens=50,
-                top_p=1
-                )
-    predict_answer = response.output_text.strip()
-
-    # Second round evaluation for semantic similarity
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "input_text",
-                    "text": f"請告訴我根據問題實際上的答案與模型預測的答案意思是否正確，不用到一模一樣意思相同即可，請以'是'或'否'回答。\n問題: {question['question']}\n實際上的答案: {except_answer}\n模型預測的答案: {predict_answer}"
-                }
-            ]
-        }
-    ]
-
-
-    response = client.responses.create(
-                model="gpt-4o",
-                input=messages,
-                temperature=1,
-                max_output_tokens=16,
-                top_p=1
-                )
-    return response.output_text.strip() == '是'
+    question_prompt = f"請根據pdf文件，簡短的回答問題\nQuestion: {question['question']}"
+    predict_answer = inference_model(model_name, question_prompt, pdf_base64)
+    
+    evaluate_prompt= f"請告訴我根據問題實際上的答案與模型預測的答案意思是否正確，不用到一模一樣意思相同即可，請以'是'或'否'回答。\n問題: {question['question']}\n實際上的答案: {except_answer}\n模型預測的答案: {predict_answer}"
+    evaluate_answer = inference_model('claude37', evaluate_prompt, None)
+    return evaluate_answer == '是'
 
 # Evaluate short easy questions
-def evaluate_easy_questions(question):
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+def evaluate_easy_questions(question, model_name):
     filename = question['filename']
-    with open(f'./pdf/{filename}.pdf', 'rb') as f:
-        pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    if model_name == 'gpt-4o':
+        with open(f'./pdf/{filename}.pdf', 'rb') as f:
+            pdf_base64 = base64.b64encode(f.read()).decode('utf-8')
+    else:
+        # Check file size > 4.5mb
+        if os.path.getsize(f'./pdf/{filename}.pdf') > 4.5 * 1024 * 1024:
+            base64_outputs = split_pdf_to_bytes(f'./pdf/{filename}.pdf')
+            pdf_base64 = base64_outputs
+        else:
+            with open(f'./pdf/{filename}.pdf', 'rb') as f:
+                pdf_base64 = [f.read()]
 
     except_answer = question['answer']
+    question_prompt = f"請根據pdf文件，簡短的回答問題\nQuestion: {question['question']}"
+    predict_answer = inference_model(model_name, question_prompt, pdf_base64)
     
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "input_text",
-                    "text": f"請根據pdf文件，簡短的回答問題\nQuestion: {question['question']}"
-                },
-                {
-                    "type": "input_file",
-                    "filename": filename,
-                    "file_data": f"data:application/pdf;base64,{pdf_base64}",
-                }
-            ]
-        }
-    ]
-
-    response = client.responses.create(
-                model="gpt-4o",
-                input=messages,
-                temperature=1,
-                max_output_tokens=50,
-                top_p=1
-                )
-    predict_answer = response.output_text.strip()
-
-
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "input_text",
-                    "text": f"請告訴我根據問題實際上的答案與模型預測的答案意思是否正確，不用到一模一樣意思相同即可，請以'是'或'否'回答。\n問題: {question['question']}\n實際上的答案: {except_answer}\n模型預測的答案: {predict_answer}"
-                }
-            ]
-        }
-    ]
-
-    response = client.responses.create(
-                model="gpt-4o",
-                input=messages,
-                temperature=1,
-                max_output_tokens=16,
-                top_p=1
-                )
-    return response.output_text.strip() == '是'
+    evaluate_prompt= f"請告訴我根據問題實際上的答案與模型預測的答案意思是否正確，不用到一模一樣意思相同即可，請以'是'或'否'回答。\n問題: {question['question']}\n實際上的答案: {except_answer}\n模型預測的答案: {predict_answer}"
+    evaluate_answer = inference_model('claude37', evaluate_prompt, None)
+    return evaluate_answer == '是'
 
 # Format and print evaluation results in a dynamic table
 def dynamic_table_output(results):
@@ -204,7 +141,7 @@ def dynamic_table_output(results):
             print("|" + "|".join("=" * (w + 2) for w in col_widths) + "|")
 
 # Main evaluation function
-def evaluate_datasets(file_path):
+def evaluate_datasets(file_path, model_name):
     questions, answers, data_types, filenames = extract_questions_and_answers(file_path)
     time0 = time.time()
     # Group all questions by filename
@@ -215,15 +152,15 @@ def evaluate_datasets(file_path):
     all_tasks = []
     for filename, items in grouped_data.items():
         tf_questions = [q for q in items if q['data_type'] == 'true_false_questions'][:1]
-        easy_questions = [q for q in items if q['data_type'] == 'easy_questions'][:2]
+        easy_questions = [q for q in items if q['data_type'] == 'easy_questions'][:1]
         general_questions = [q for q in items if q['data_type'] == 'general_questions'][:1]
 
         for q in tf_questions:
-            all_tasks.append((filename, evaluate_true_false_questions, q))
+            all_tasks.append((filename, evaluate_true_false_questions, q, model_name))
         for q in easy_questions:
-            all_tasks.append((filename, evaluate_easy_questions, q))
+            all_tasks.append((filename, evaluate_easy_questions, q, model_name))
         for q in general_questions:
-            all_tasks.append((filename, evaluate_general_questions, q))
+            all_tasks.append((filename, evaluate_general_questions, q, model_name))
 
     # Dictionary to store results by filename
     result_map = {}
@@ -232,7 +169,7 @@ def evaluate_datasets(file_path):
     print(f"time1: {time1 - time0}")
     # Run all tasks concurrently
     with ThreadPoolExecutor(max_workers=20) as executor:
-        future_to_task = {executor.submit(func, q): (filename, func) for filename, func, q in all_tasks}
+        future_to_task = {executor.submit(func, q, model_name): (filename, func) for filename, func, q, model_name in all_tasks}
 
         for future in as_completed(future_to_task):
             filename, func = future_to_task[future]
@@ -264,4 +201,7 @@ def evaluate_datasets(file_path):
 
 # Entry point
 if __name__ == '__main__':
-    evaluate_datasets('./merged_output/all_questions.json')
+    if len(sys.argv) != 2:
+        evaluate_datasets('./merged_output/all_questions.json', 'gpt-4o')
+    else:
+        evaluate_datasets('./merged_output/all_questions.json', sys.argv[1])

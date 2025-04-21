@@ -19,4 +19,4 @@ merge:
 	bash scripts/merge.sh
 
 evaluate:
-	bash scripts/evaluate.sh
+	bash scripts/evaluate.sh $(args)
